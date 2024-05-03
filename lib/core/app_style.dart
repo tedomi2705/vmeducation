@@ -10,13 +10,13 @@ const skipButtonStyle = TextStyle(
 
 const titleOnboardingStyle = TextStyle(
   color: AppColor.primaryColor,
-  fontSize: 30,
+  fontSize: 25,
   fontWeight: FontWeight.bold,
 );
 
 const subTitleOnboardingStyle = TextStyle(
   color: Colors.grey,
-  fontSize: 20,
+  fontSize: 15,
   fontWeight: FontWeight.w400,
 );
 
