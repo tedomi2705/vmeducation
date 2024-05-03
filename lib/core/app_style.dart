@@ -20,6 +20,12 @@ const subTitleOnboardingStyle = TextStyle(
   fontWeight: FontWeight.w400,
 );
 
+const navigationTextStyle = TextStyle(
+  color: Colors.black,
+  fontSize: 24.0,
+  fontWeight: FontWeight.w500,
+);
+
 
 
 

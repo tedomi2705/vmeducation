@@ -71,7 +71,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           ),
           Positioned(
             bottom: 60,
-            left: 30,
+            left: 35,
             child: Container(
               child: IconButton(
                 onPressed: _currentPage > 0 ? () {
@@ -81,7 +81,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   });
                 } : null, // null disables the button
                 icon: const Icon(Icons.arrow_back_ios, size: 24.0, color: AppColor.primaryColor),
-              )
+              ),
             )
           ),
           Positioned(
@@ -103,7 +103,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   });
                 },
                 icon: const Icon(Icons.arrow_forward_ios, size: 24.0, color: AppColor.primaryColor),
-              )
+              ),
             )
           )
         ],
