@@ -26,6 +26,12 @@ const navigationTextStyle = TextStyle(
   fontWeight: FontWeight.w500,
 );
 
+const InformationSectionStyle = TextStyle(
+  color: Color.fromARGB(255, 50, 162, 80),
+  fontSize: 30,
+  fontWeight: FontWeight.bold,
+);
+
 
 
 
