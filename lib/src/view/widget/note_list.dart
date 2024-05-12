@@ -34,17 +34,17 @@ class NoteList extends StatelessWidget {
             GestureDetector(
               onTap: (){
                 if (i == 0) {
-                  Navigator.push(context, PageTransition(child: MapScreen(), type: PageTransitionType.fade));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => MapScreen()));
                 } else if (i == 1) {
-                  Navigator.push(context, PageTransition(child: AdmissionScreen(), type: PageTransitionType.fade));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => AdmissionScreen()));
                 } else if (i == 2) {
-                  Navigator.push(context, PageTransition(child: TourScreen(), type: PageTransitionType.fade));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => TourScreen()));
                 } else if (i == 3){
-                  Navigator.push(context, PageTransition(child: ServiceScreen(), type: PageTransitionType.fade));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => ServiceScreen()));
                 } else if (i == 4){
-                  Navigator.push(context, PageTransition(child: RegulationScreen(), type: PageTransitionType.fade));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => RegulationScreen()));
                 } else if (i == 5){
-                  Navigator.push(context, PageTransition(child: ContactScreen(), type: PageTransitionType.fade));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => ContactScreen()));
                 }
               },
               child: noteListItem(infoList[i].sectionTitle, infoList[i].imageURL),
