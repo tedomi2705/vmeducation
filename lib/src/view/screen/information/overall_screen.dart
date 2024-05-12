@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 
-class OverallScreen extends StatefulWidget {
-  const OverallScreen({super.key});
+class RegulationScreen extends StatefulWidget {
+  const RegulationScreen({super.key});
 
   @override
-  State<OverallScreen> createState() => _OverallScreenState();
+  State<RegulationScreen> createState() => _RegulationScreenState();
 }
 
-class _OverallScreenState extends State<OverallScreen> {
+class _RegulationScreenState extends State<RegulationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Overall'),
+        title: const Text('Regulation'),
       ),
       body: const Center(
-        child: Text('Overall'),
+        child: Text('Regulation'),
       ),
     );
   }
