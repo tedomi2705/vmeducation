@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:vmeducation/core/app_color.dart';
 import 'package:vmeducation/src/view/widget/carousel.dart';
+import 'package:vmeducation/src/view/widget/carousel_item_detail.dart';
 
 // TextStyle
 const skipButtonStyle = TextStyle(
@@ -46,9 +47,15 @@ const CarouselItemTitleStyle2 = TextStyle(
   fontWeight: FontWeight.w400,
 );
 
-const headingStyle = TextStyle(
-  color: AppColor.primaryColor,
+const CarouselItemDetailStyle = TextStyle(
+  color: Colors.black,
   fontSize: 20,
+  fontWeight: FontWeight.w500,
+);
+
+const headingStyle = TextStyle(
+  color: Colors.white,
+  fontSize: 15,
   fontWeight: FontWeight.bold,
 );
 
@@ -57,6 +64,8 @@ const noteListStyle = TextStyle(
   fontSize: 15,
   fontWeight: FontWeight.w600,
 );
+
+
 
 
 //PaddingStyle

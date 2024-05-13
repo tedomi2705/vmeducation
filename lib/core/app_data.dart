@@ -60,7 +60,14 @@ class AppData {
       'title': 'Khám phá di sản văn hóa vùng Tây Bắc',
       'date' : '2024-04-20',
       'content' :
-          ''' abcd
+          ''' 
+          Chương trình diễn ra vào ngày 27, 28, 30/4 và 1/5 tại Bảo tàng Dân tộc học Việt Nam, nhân dịp kỷ niệm ngày Thống nhất đất nước 30/4/1975 - 30/4/2024, ngày Quốc tế lao động 1/5 và hướng tới kỷ niệm 70 năm Chiến thắng Điện Biên Phủ 7/5/1954 - 7/5/2024. Chương trình nhằm giới thiệu đến khách tham quan một số nét đẹp - di sản văn hóa vùng Tây Bắc nói chung và ở Điện Biên nói riêng.
+          
+          Khách tham quan tham gia các trò chơi truyền thống như đẩy gậy, đi cà kheo, đánh cầu lông gà, ném pao của người Hmông đã mang lại những trải nghiệm thú vị và sự hiểu biết về phong tục tập quán của người Hmông. Trò chơi tung còn, tó má lẹ, đánh mảng của người Tày, Thái, Mường đã thu hút những du khách thích hoạt động tương tác và vận động. Tại khu vực trò chơi dân gian, du khách không chỉ được trải nghiệm chơi mà còn có cơ hội tìm hiểu ý nghĩa của những trò chơi trong đời sống của các dân tộc ở Tây Bắc.
+          
+          Bên cạnh đó, khách tham quan, nhất là các em nhỏ còn có cơ hội tham gia trải nghiệm để tăng cường hiểu biết về các dân tộc ở Tây Bắc qua hoạt động tô vẽ trang phục và nhà ở truyền thống. Qua đó giúp các em có thể nhận diện và phân biệt được các dân tộc qua trang phục và hình dáng của ngôi nhà. Ngoài ra, du khách còn được khám phá về địa danh Điện Biên với hoạt động nhận diện các dân tộc trên bản đồ, để xác định có bao nhiêu dân tộc và tên gọi của các dân tộc ở nơi gắn bó mật thiết với Chiến thắng Điện Biên Phủ lẫy lừng. Đặc biệt, công chúng có cơ hội trải nghiệm đội khăn piêu và thử mặc trang phục của một số dân tộc ở Điện Biên. Các hoạt động này giúp các em hóa thân thành những bạn nhỏ ở vùng Tây Bắc để cùng tìm hiểu ý nghĩa của những họa tiết hoa văn, kỹ thuật tạo ra những bộ trang phục cầu kỳ cũng như những tri thức dân gian của các chủ thể văn hoá nơi đây.
+          
+          Hoạt động "Khám phá di sản văn hóa vùng Tây Bắc" không chỉ tôn vinh những nét đẹp văn hóa của các dân tộc ở vùng Tây Bắc mà còn nhắc nhở thế hệ trẻ luôn ghi nhớ đến những công lao của các dân tộc trong Chiến thắng Điện Biên Phủ. Thông qua chương trình, Bảo tàng Dân tộc học Việt Nam mong muốn công chúng, đặc biệt là các bạn trẻ hãy cùng tìm hiểu di sản văn hóa dân tộc để tăng cường nhận thức và nâng cao hiểu biết về truyền thống của cha ông, để từ đó thêm yêu quý, trân trọng và chung tay bảo vệ, phát huy các giá trị di sản văn hóa trong giai đoạn hội nhập và phát triển hiện nay.
           '''
     },
     {
@@ -68,7 +75,12 @@ class AppData {
       'title': 'Đại sứ Hàn Quốc làm việc và tham quan Bảo tàng Dân tộc học Việt Nam',
       'date' : '2024-04-05',
       'content' :
-          ''' abcd
+          ''' 
+          Sáng ngày 05/04/2024, Bảo tàng Dân tộc học Việt Nam đã vinh dự đón tiếp Ngài Choi Young Sam - Đại sứ Đặc mệnh toàn quyền Hàn Quốc tại Việt Nam và phái đoàn tới tham quan và làm việc.
+          
+          Ngài Đại sứ và phái đoàn đã dành thời gian làm việc và tham quan các không gian trưng bày của Bảo tàng Dân tộc học Việt Nam. Ngài ấn tượng với các trưng bày thể hiện đặc trưng văn hoá trong sự đa dạng và thống nhất của 54 dân tộc Việt Nam cũng như các nước trong khu vực Đông Nam Á. Đặc biệt, khi tham quan phòng Hàn Quốc, Ngài đánh giá cao kết quả của dự án do Bộ Văn hoá, Thể thao và Du lịch Hàn Quốc tài trợ và sự hợp tác thực hiện giữa Bảo tàng Dân tộc học Việt Nam với Bảo tàng Dân gian Quốc gia Hàn Quốc, Trung tâm Văn hoá Hàn Quốc tại Hà Nội đã làm nên cuộc trưng bày rất ý nghĩa này.
+          
+          Ngài Đại sứ chia sẻ: “Việt Nam là quốc gia có nền văn hóa rất đa dạng. Những giá trị văn hoá của các tộc người đã được thể hiện chuyên nghiệp và sinh động trong các không gian trưng bày của Bảo tàng. Chúc Bảo tàng Dân tộc học Việt Nam sẽ luôn làm tốt vai trò gìn giữ, phát huy, quảng bá giá trị văn hoá dân tộc và gắn kết mối quan hệ hữu nghị giữa hai nước Việt Nam và Hàn Quốc”.
           '''
     },
     {
@@ -76,7 +88,19 @@ class AppData {
       'title': 'Triển lãm kỹ thuật số "KHẢM. Mật mã Ý của nghệ thuật vượt thời gian',
       'date' : '2024-03-05',
       'content' :
-          ''' abcd
+          ''' 
+          Chuyến du hành Châu Á của triển lãm kỹ thuật số “KHẢM. Mật mã Ý của nghệ thuật vượt thời gian” sẽ được bắt đầu từ Việt Nam. Hà Nội là thành phố đầu tiên tại Châu Á tổ chức triển lãm đa phương tiện dành cho tranh khảm của Ý.
+          
+          Thông qua trải nghiệm đa phương tiện phong phú, khách tham quan có thể chiêm ngưỡng những bức tranh khảm độc đáo nhất dọc theo tuyến đường theo từng giai đoạn về Rome, Pompeii, Aquileia, Ravenna, Palermo/Monreale, Piazza Armerina và Baia ngay trong lòng thành phố Hà Nội tại Bảo tàng Dân tộc học Việt Nam.
+          
+          Triển lãm kỹ thuật số “KHẢM. Mật mã Ý của nghệ thuật vượt thời gian” không chỉ là một cuộc triển lãm đơn thuần, mà còn là một trải nghiệm giáo dục đầy thú vị. Các chặng đường của triển lãm được hình thành như một hành trình dài 2000 năm khám phá những hình ảnh, biểu tượng, kỹ thuật và chất liệu của một số bức tranh khảm nổi tiếng, mang tính biểu tượng nhất của Ý.
+          
+          Triển lãm kỹ thuật số “KHẢM. Mật mã Ý của nghệ thuật vượt thời gian” được lên ý tưởng thực hiện bởi công ty Magister Art, được Bộ Ngoại giao và Hợp tác Quốc tế Ý cũng như Đại sứ quán Ý tại Hà Nội quảng bá. Đây là một sự kiện văn hóa ý nghĩa, góp phần tăng cường giao lưu văn hóa giữa Việt Nam và Ý, đồng thời mang đến cho công chúng Việt Nam cơ hội tiếp cận với một loại hình nghệ thuật đặc sắc của thế giới.
+          
+          Thông tin tham quan:
+
+          Thời gian: từ thứ Sáu, 08/03/2024 đến hết Chủ nhật, 07/04/2024 (thứ Ba đến Chủ nhật hàng tuần, 8h30 – 17h30)
+          Địa điểm: Bảo tàng Dân tộc học Việt Nam, Nguyễn Văn Huyên, Quan Hoa, Cầu Giấy, Hà Nội
           '''
     },
     {
@@ -84,7 +108,14 @@ class AppData {
       'title': 'Nhìn lại chương trình Vui Xuân Giáp Thìn 2024',
       'date' : '2024-02-15',
       'content' :
-          ''' abcd
+          ''' 
+          Sáng mồng 4 Tết (ngày 13/2/2024), màn hát và múa Ải Lao - một nghi thức truyền thống chỉ diễn ra ở lễ hội Gióng làng Phù Đổng mang ý nghĩa nhân văn cao đẹp về truyền thống đánh giặc giữ nước, được trình diễn bởi 20 nghệ nhân đến từ phường Phúc Lợi, quận Long Biên, thành phố Hà Nội. Bên cạnh đó, công chúng còn được khám phá văn hóa Mường qua tìm hiểu về lịch tre, bộ lịch cổ dân gian gọi là lịch Đoi và dàn cồng chiêng gắn với đời sống sinh hoạt của người Mường. Ẩm thực Mường phong phú với nét đặc trưng riêng như chả cuốn lá bưởi, cá đày khay ốt, gà ốt măng chua, rau ốt thập cẩm, pịa trâu, cơm lam, xôi màu…cũng được giới thiệu trong dịp này.
+          
+          Trong ngày mồng 8 và 9 Tết (ngày 17 và 18/2/2024), Bảo tàng Dân tộc học Việt Nam đã đón gần 13.500 khách tham gia chương trình. Điểm nhấn của chương trình là có sự tham gia của 40 nghệ nhân đến từ Hội An, với các màn trình diễn đặc sắc. Du khách được đã tìm hiểu về văn hóa của Hội An - thành phố sáng tạo từ di sản thông qua trình diễn hò xứ Quảng, hát Bả trạo, chơi Bài chòi,... Những món đồ thủ công truyền thống như đèn lồng, gốm Thanh Hà, mộc Kim Bồng, điêu khắc gốc tre,… do các nghệ nhân trực tiếp hướng dẫn làm đã được thế hệ trẻ hào hứng đón nhận và trải nghiệm. Đặc biệt, du khách còn được thưởng thức các đặc sản và sản vật từ Hội An ngay giữa lòng Hà Nội… Tất cả đã tạo nên một sân chơi bổ ích, thú vị cho khách tham quan và trẻ em trong dịp đầu xuân. Đặc biệt, hoạt động “Đêm Hội An: Cùng thắp sáng di sản” mở cửa miễn phí từ 17h30 - 21h cùng ngày đã thu hút nhiều công chúng tham gia khám phá các di sản của Hội An theo một cách mới. Dãy phố cổ Hội An được phục dựng trong ánh đèn lồng lung linh luôn thu hút các bạn trẻ vừa chụp ảnh vừa khám phá phố Hội. Tại đây nhiều di sản văn hóa của Hội An đã được các nghệ nhân trực tiếp chia sẻ qua những câu chuyện thú vị về cách truyền dạy và giữ nghề của địa phương…
+          
+          Xuyên suốt sự kiện này, Bảo tàng Dân tộc học Việt Nam còn giới thiệu các hoạt động truyền thống đã được duy trì nhiều năm, đó là in tranh Đông Hồ, trình diễn múa rối nước, viết thư pháp, nặn bộ phỗng bằng đất sét, nặn tò he, tô vẽ tranh rồng và các con giáp và một số trò chơi dân gian của các dân tộc... Ngoài ra, sự kết nối giữa truyền thống và hiện đại được thể nghiệm trong khám phá di sản văn hóa qua công nghệ, tìm hiểu tết cổ truyền qua QR Tour - Khám phá Tết trong không gian trưng bày; tranh tài họa rồng và khám phá những đứa con của rồng… Đây là nét mới trong hoạt động khám phá trải nghiệm được tổ chức tại Bảo tàng. Hoạt động STEM khám phá Tết không chỉ góp phần làm phong phú các trải nghiệm của chương trình mà còn giúp các em nhỏ sáng tạo, tiếp cận gần hơn với văn hóa truyền thống bằng cách học mà chơi.
+          
+          Thông qua chương trình "Vui xuân Giáp Thìn: Sắc thái văn hóa Hội An” Bảo tàng mong muốn tạo sân chơi bổ ích cho du khách, giúp tăng cường hiểu biết về Tết cổ truyền nói chung và các di sản văn hóa của Hội An nói riêng. Từ đó thế hệ trẻ được nâng cao hiểu biết, thêm trân quý văn hóa truyền thống của cha ông và có ý thức trong việc bảo vệ, phát huy các giá trị di sản văn hóa trong bối cảnh đương đại.
           '''
     },
     {
@@ -92,7 +123,12 @@ class AppData {
       'title': 'Đại sứ Ấn Độ tham quan và làm việc tại Bảo tàng Dân tộc học Việt Nam',
       'date' : '2024-03-10',
       'content' :
-          ''' abcd
+          ''' 
+          Chiều ngày 7/3/2023, Đại sứ Đặc mệnh toàn quyền Ấn Độ tại Việt Nam Sandeep Arya cùng phu nhân đã có buổi tham quan và làm việc với Lãnh đạo Bảo tàng Dân tộc học Việt Nam. 
+          
+          Đại sứ Sandeep Arya và phu nhân đã dành thời gian tham quan các khu trưng bày: Văn hóa các dân tộc Việt Nam, Vườn kiến trúc và Văn hóa thế giới. Trong quá trình tham quan, Đại sứ Sandeep Arya rất quan tâm tìm hiểu văn hóa các dân tộc và đặt nhiều câu hỏi về cuộc sống, phong tục tập quán ở các vùng miền. Đại sứ Sandeep Arya đã làm việc với Lãnh đạo Bảo tàng Dân tộc học Việt Nam và đặt vấn đề mở ra các hoạt động về hợp tác trong trưng bày, giao lưu văn hóa…
+          
+          Sau buổi tham quan và làm việc, Đại sứ Sandeep Arya chia sẻ: “Tôi rất vui khi đến tham quan Bảo tàng Dân tộc học Việt Nam, nơi trưng bày những giá trị văn hóa giàu bản sắc của Việt Nam cùng sự kết nối với những nền văn hóa khác trong khu vực. Bảo tàng thực sự đã làm tốt vai trò của mình khi đưa mọi người xích lại gần nhau hơn qua việc thúc đẩy sự hiểu biết và trân trọng dành cho nhau. Cảm ơn các bạn!”. 
           '''
     }
   ];

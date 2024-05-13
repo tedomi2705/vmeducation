@@ -46,6 +46,7 @@ class _CarouselState extends State<Carousel> {
             imageUrl: AppData.CarouselItemData[i]['imageUrl']!,
             title: AppData.CarouselItemData[i]['title']!,
             date: DateTime.parse(AppData.CarouselItemData[i]['date']!),
+            content: AppData.CarouselItemData[i]['content']!,
           );
         },
       ),
