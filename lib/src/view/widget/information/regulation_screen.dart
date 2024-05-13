@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:vmeducation/core/app_color.dart';
+import 'package:vmeducation/core/app_data.dart';
+import 'package:vmeducation/core/app_style.dart';
 
 class RegulationScreen extends StatefulWidget {
   const RegulationScreen({super.key});
@@ -12,7 +15,8 @@ class _RegulationScreenState extends State<RegulationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Regulation'),
+        backgroundColor: AppColor.navBarBg,
+        title: const Text(AppData.regulation, style: AppBarTitleStyle),
       ),
       body: const Center(
         child: Text('Regulation'),

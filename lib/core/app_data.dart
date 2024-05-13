@@ -17,6 +17,12 @@ class AppData {
 
   static const String news = 'Tin tức';
   static const String note = 'Thông tin hữu ích';
+  static const String map = 'Bản đồ';
+  static const String admission = 'Vé và lệ phí';
+  static const String tour = 'Tham quan';
+  static const String service = 'Dịch vụ';
+  static const String regulation = 'Nội quy';
+  static const String contact = 'Liên hệ';
 
 
   //List of information section

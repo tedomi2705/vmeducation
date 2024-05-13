@@ -65,7 +65,11 @@ const noteListStyle = TextStyle(
   fontWeight: FontWeight.w600,
 );
 
-
+const AppBarTitleStyle = TextStyle(
+  color: AppColor.primaryColor,
+  fontSize: 20,
+  fontWeight: FontWeight.w600,
+);
 
 
 //PaddingStyle
