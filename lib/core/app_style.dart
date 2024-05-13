@@ -71,6 +71,12 @@ const AppBarTitleStyle = TextStyle(
   fontWeight: FontWeight.w600,
 );
 
+const ExpansionPanelTitleStyle = TextStyle(
+  color: AppColor.primaryColor,
+  fontSize: 22,
+  fontWeight: FontWeight.w600,
+);
+
 
 //PaddingStyle
 const onboardingPaddingStyle = EdgeInsets.only(left: 50.0, right: 50.0, bottom: 50.0);

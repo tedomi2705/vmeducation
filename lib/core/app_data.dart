@@ -1,4 +1,6 @@
+import 'package:vmeducation/src/model/admission.dart';
 import 'package:vmeducation/src/model/info_section.dart';
+import 'package:vmeducation/src/model/tour.dart';
 
 class AppData {
   static const String title1 = 'Chào mừng đến với VMEducation!';
@@ -23,6 +25,11 @@ class AppData {
   static const String service = 'Dịch vụ';
   static const String regulation = 'Nội quy';
   static const String contact = 'Liên hệ';
+
+  static const String service1 = 'Cho thuê địa điểm và tổ chức sự kiện';
+  static const String service2 = 'Café, Nhà hàng';
+  static const String service3 = 'Cửa hàng lưu niệm';
+  static const String service4 = 'Cửa hàng sách';
 
 
   //List of information section
@@ -137,5 +144,98 @@ class AppData {
           Sau buổi tham quan và làm việc, Đại sứ Sandeep Arya chia sẻ: “Tôi rất vui khi đến tham quan Bảo tàng Dân tộc học Việt Nam, nơi trưng bày những giá trị văn hóa giàu bản sắc của Việt Nam cùng sự kết nối với những nền văn hóa khác trong khu vực. Bảo tàng thực sự đã làm tốt vai trò của mình khi đưa mọi người xích lại gần nhau hơn qua việc thúc đẩy sự hiểu biết và trân trọng dành cho nhau. Cảm ơn các bạn!”. 
           '''
     }
+  ];
+
+  static const regulationList = [
+    {
+      'id' : 1,
+      'content' : 'Không mang theo vũ khí, chất dễ cháy, nổ, chất gây khói, các chất độc hại như axit, chất ăn mòn, đồ đạc quá khổ và các vật dụng nguy hiểm khác'
+    },
+    {
+      'id' : 2,
+      'content' : 'Để hành lý tư trang đúng nơi quy định (tiền và những vật phẩm có giá trị cao cần đem theo người)'
+    },
+    {
+      'id' : 3,
+      'content' : 'Giữ vệ sinh chung, bỏ rác đúng nơi quy định'
+    },
+    {
+      'id' : 4,
+      'content' : 'Không ăn uống, hút thuốc lá, chất kích thích trong khu vực trưng bày'
+    },
+    {
+      'id' : 5,
+      'content' : 'Không gây ồn ào, cầm, sờ, ngồi lên hiện vật, di chuyển hiện vật'
+    },
+    {
+      'id' : 6,
+      'content' : 'Không dùng đèn flash khi chụp ảnh trong các phòng trưng bày'
+    },
+    {
+      'id' : 7,
+      'content' : 'Không tự ý tổ chức các hoạt động trong bảo tàng'
+    },
+    {
+      'id' : 8,
+      'content' : 'Không mang súc vật vào bảo tàng'
+    },
+    {
+      'id' : 9,
+      'content' : 'Không trèo cây, bẻ cành, ngắt hoa, hái quả... trong vườn bảo tàng'
+    }
+];
+
+  static List<Admission> admissionList = [
+    Admission(
+      isExpanded: false, 
+      admissionId: 1, 
+      admissionTitle: 'Giá vé', 
+      admissionContent: '• 40.000 đồng/người/lượt\n• Sinh viên: 20.000 đồng/người/lượt\n• Học sinh: 10.000 đồng/người/lượt'
+    ),
+    Admission(
+      isExpanded: false, 
+      admissionId: 2, 
+      admissionTitle: 'Giảm giá vé', 
+      admissionContent: '• Các đối tượng được hưởng chính sách ưu đãi hưởng thụ văn hóa (Người cao tuổi; Người khuyết tật nặng...): 50%\n• Người dân tộc thiểu số: 50%'
+    ),
+    Admission(
+      isExpanded: false, 
+      admissionId: 3, 
+      admissionTitle: 'Miễn phí vé', 
+      admissionContent: '• Trẻ em dưới 6 tuổi\n• Người khuyết tật nặng đặc biệt\n• Thẻ ICOM\n• Thẻ Người bạn Bảo tàng của BTDTHVN\n• Thẻ nhà báo\n• Nhà tài trợ'
+    ),
+    Admission(
+      isExpanded: false, 
+      admissionId: 4, 
+      admissionTitle: 'Phí thuyết minh', 
+      admissionContent: '50.000-100.000 đồng/lượt'
+    ),
+    Admission(
+      isExpanded: false, 
+      admissionId: 5, 
+      admissionTitle: 'Phí chụp ảnh', 
+      admissionContent: '• Máy ảnh du lịch: 50.000đ/máy\n• Máy ảnh chuyên nghiệp: 500.000đ/máy'
+    )
+  ];
+
+  static List<Tour> tourList = [
+    Tour(
+        isExpanded: false,
+        tourId: 1,
+        title: 'Tham quan theo đoàn và trường học',
+        content: 'Bảo tàng Dân tộc học Việt Nam có các không gian trưng bày trong nhà và không gian vườn với các công trình kiến trúc dân gian. Để đảm bảo chất lượng tham quan, không nên tổ chức các đoàn quá đông. Đối với các đoàn tham quan có thuyết minh, số lượng không quá 30 người/thuyết minh. Đối với các học sinh, để học sinh có thể "vừa học, vừa chơi", các lớp nên tổ chức tham quan rải rác trong năm, tham quan từng lớp một, không nên tổ chức tham quan theo trường. Bảo tàng có các chương trình nhà trường và hoạt động tham quan phù hợp với các độ tuổi khác nhau và với chương trình học, các môn học khác nhau; ngoài ra còn có các chương trình giáo viên hướng dẫn tổ chức tham quan cho học sinh.'
+      ),
+    Tour(
+      isExpanded: false,
+      tourId: 2,
+      title: 'Tham quan có hướng dẫn',
+      content: 'Bảo tàng Dân tộc học Việt Nam có các hướng dẫn viên tiếng Việt, Anh, Pháp cho các khu vực khác nhau (Các dân tộc Việt Nam, Văn hoá Đông Nam Á, Vườn Kiến trúc...) Để đảm bảo chất lượng tham quan, không nên tổ chức các đoàn quá đông, số lượng không quá 30 người/hướng dẫn. Bạn có thể yêu cầu hướng dẫn tại chỗ, mua vé trước cổng Bảo tàng; tuy nhiên, để đảm bảo chắc chắn có hướng dẫn (vì số lượng hướng dẫn viên có hạn), bạn nên đăng ký trước khi đến Bảo tàng theo số điện thoại trên.'
+    ),
+    Tour(
+      isExpanded: false, 
+      tourId: 3, 
+      title: 'Liên hệ đặt tour', 
+      content: '04-3756-2193\n\nBảo tàng mở cửa hàng ngày từ 8h30 đến 17h30. Đóng cửa các ngày thứ Hai và Tết Nguyên đán'
+    ),
   ];
 }

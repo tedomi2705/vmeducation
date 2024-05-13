@@ -22,12 +22,12 @@ class _InformationScreenState extends State<InformationScreen> {
           children: [
             Padding(
               padding: const EdgeInsets.only(left: 25, bottom: 20),
-              child: Text(AppData.news, style: headingStyle),
+              child: Text(AppData.news, style: AppBarTitleStyle),
             ),
             Carousel(),
             Padding(
               padding: const EdgeInsets.only(top: 30, left: 25, bottom: 10),
-              child: Text(AppData.note, style: headingStyle),
+              child: Text(AppData.note, style: AppBarTitleStyle),
             ),
             NoteList(),
           ],
