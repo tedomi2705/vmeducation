@@ -1,5 +1,6 @@
 import 'package:vmeducation/src/model/admission.dart';
 import 'package:vmeducation/src/model/info_section.dart';
+import 'package:vmeducation/src/model/regulation.dart';
 import 'package:vmeducation/src/model/tour.dart';
 
 class AppData {
@@ -146,44 +147,44 @@ class AppData {
     }
   ];
 
-  static const regulationList = [
-    {
-      'id' : 1,
-      'content' : 'Không mang theo vũ khí, chất dễ cháy, nổ, chất gây khói, các chất độc hại như axit, chất ăn mòn, đồ đạc quá khổ và các vật dụng nguy hiểm khác'
-    },
-    {
-      'id' : 2,
-      'content' : 'Để hành lý tư trang đúng nơi quy định (tiền và những vật phẩm có giá trị cao cần đem theo người)'
-    },
-    {
-      'id' : 3,
-      'content' : 'Giữ vệ sinh chung, bỏ rác đúng nơi quy định'
-    },
-    {
-      'id' : 4,
-      'content' : 'Không ăn uống, hút thuốc lá, chất kích thích trong khu vực trưng bày'
-    },
-    {
-      'id' : 5,
-      'content' : 'Không gây ồn ào, cầm, sờ, ngồi lên hiện vật, di chuyển hiện vật'
-    },
-    {
-      'id' : 6,
-      'content' : 'Không dùng đèn flash khi chụp ảnh trong các phòng trưng bày'
-    },
-    {
-      'id' : 7,
-      'content' : 'Không tự ý tổ chức các hoạt động trong bảo tàng'
-    },
-    {
-      'id' : 8,
-      'content' : 'Không mang súc vật vào bảo tàng'
-    },
-    {
-      'id' : 9,
-      'content' : 'Không trèo cây, bẻ cành, ngắt hoa, hái quả... trong vườn bảo tàng'
-    }
-];
+  static List<Regulation> regulationList = [
+    Regulation(
+      regulationId: 1, 
+      regulationContent: 'Không mang theo vũ khí, chất dễ cháy, nổ, chất gây khói, các chất độc hại như axit, chất ăn mòn, đồ đạc quá khổ và các vật dụng nguy hiểm khác'
+    ),
+    Regulation(
+      regulationId: 2, 
+      regulationContent: 'Để hành lý tư trang đúng nơi quy định (tiền và những vật phẩm có giá trị cao cần đem theo người)'
+    ),
+    Regulation(
+      regulationId: 3, 
+      regulationContent: 'Giữ vệ sinh chung, bỏ rác đúng nơi quy định'
+    ),
+    Regulation(
+      regulationId: 4, 
+      regulationContent: 'Không ăn uống, hút thuốc lá, chất kích thích trong khu vực trưng bày'
+    ),
+    Regulation(
+      regulationId: 5, 
+      regulationContent: 'Không gây ồn ào, cầm, sờ, ngồi lên hiện vật, di chuyển hiện vật'
+    ),
+    Regulation(
+      regulationId: 6, 
+      regulationContent: 'Không dùng đèn flash khi chụp ảnh trong các phòng trưng bày'
+    ),
+    Regulation(
+      regulationId: 7, 
+      regulationContent: 'Không tự ý tổ chức các hoạt động trong bảo tàng'
+    ),
+    Regulation(
+      regulationId: 8, 
+      regulationContent: 'Không mang vật nuôi, thú cưng vào bảo tàng'
+    ),
+    Regulation(
+      regulationId: 9, 
+      regulationContent: 'Không trèo cây, bẻ cành, ngắt hoa, hái quả... trong vườn bảo tàng'
+    )
+  ];
 
   static List<Admission> admissionList = [
     Admission(

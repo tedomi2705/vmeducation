@@ -77,6 +77,12 @@ const ExpansionPanelTitleStyle = TextStyle(
   fontWeight: FontWeight.w600,
 );
 
+const contactCardStyle = TextStyle(
+  color: Colors.white,
+  fontSize: 20,
+  fontWeight: FontWeight.bold,
+);
+
 
 //PaddingStyle
 const onboardingPaddingStyle = EdgeInsets.only(left: 50.0, right: 50.0, bottom: 50.0);
