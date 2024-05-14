@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:vmeducation/core/app_color.dart';
+import 'package:vmeducation/core/app_data.dart';
 import 'package:vmeducation/core/app_style.dart';
 import 'package:vmeducation/src/view/screen/information_screen.dart';
 import 'package:vmeducation/src/view/screen/learning_screen.dart';
@@ -36,10 +37,10 @@ class _HomeScreenState extends State<HomeScreen> {
     Ionicons.settings,
   ];
   List<String> _bottomNavBarTitles = <String>[
-    'Information',
-    'Learning',
-    'Collection',
-    'Settings',
+    AppData.info,
+    AppData.learning,
+    AppData.collection,
+    AppData.settings,
   ];
 
   @override
@@ -49,8 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(_bottomNavBarTitles[_bottomNavIndex], style: navigationTextStyle),
-            Icon(Icons.info, color: Colors.black, size: 30.0),
+            Text(_bottomNavBarTitles[_bottomNavIndex], style: navigationTextStyle)
           ]
         ),
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,

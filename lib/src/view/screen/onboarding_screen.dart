@@ -80,7 +80,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     _pageController.previousPage(duration: const Duration(milliseconds: 200), curve: Curves.easeIn);
                   });
                 } : null, // null disables the button
-                icon: const Icon(Icons.arrow_back_ios, size: 24.0, color: AppColor.primaryColor),
+                icon: const Icon(Icons.arrow_back_ios_new, size: 24.0, color: AppColor.primaryColor),
               ),
             )
           ),
