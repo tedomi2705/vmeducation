@@ -4,6 +4,7 @@ import 'package:vmeducation/core/app_color.dart';
 import 'package:vmeducation/core/app_data.dart';
 import 'package:vmeducation/core/app_style.dart';
 import 'package:vmeducation/src/model/learning.dart';
+import 'package:vmeducation/src/view/screen/learning_detail_screen.dart';
 import 'package:vmeducation/src/view/widget/information/map_screen.dart';
 
 class LearningSubsection extends StatelessWidget {
@@ -29,7 +30,7 @@ class LearningSubsection extends StatelessWidget {
               color: AppColor.navBarBg,
               child: InkWell(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => MapScreen()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => LearningDetailScreen()));
                 },
                 child: Column(
                   children: [

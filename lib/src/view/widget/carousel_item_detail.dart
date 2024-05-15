@@ -27,7 +27,7 @@ class CarouselItemDetail extends StatelessWidget {
           SliverAppBar(
             systemOverlayStyle: const SystemUiOverlayStyle(statusBarBrightness: Brightness.dark),
             backgroundColor: AppColor.primaryColor,
-            expandedHeight: 200,
+            expandedHeight: 300,
             elevation: 0.0,
             pinned: true,
             stretch: true,
