@@ -24,6 +24,12 @@ class _TourScreenState extends State<TourScreen> {
             fit: BoxFit.cover,
           ),
         ),
+        child: BackdropFilter(
+          filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+          child: Container(
+            color: Colors.transparent,
+          ),
+        )
       ),
       Scaffold(
           backgroundColor: Colors.transparent,

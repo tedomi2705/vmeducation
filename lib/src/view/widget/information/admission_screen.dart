@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:vmeducation/core/app_color.dart';
 import 'package:vmeducation/core/app_data.dart';
@@ -22,6 +24,12 @@ class _AdmissionScreenState extends State<AdmissionScreen> {
             fit: BoxFit.cover,
           ),
         ),
+        child: BackdropFilter(
+          filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+          child: Container(
+            color: Colors.transparent,
+          ),
+        )
       ),
       Scaffold(
           backgroundColor: Colors.transparent,

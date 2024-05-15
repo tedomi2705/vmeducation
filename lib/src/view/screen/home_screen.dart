@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Text(_bottomNavBarTitles[_bottomNavIndex], style: navigationTextStyle)
           ]
         ),
-        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        backgroundColor: Colors.white,
         elevation: 0.0,
       ),
 

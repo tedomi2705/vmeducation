@@ -1,5 +1,7 @@
 import 'package:vmeducation/src/model/admission.dart';
 import 'package:vmeducation/src/model/info_section.dart';
+import 'package:vmeducation/src/model/learning.dart';
+import 'package:vmeducation/src/model/learning_item.dart';
 import 'package:vmeducation/src/model/regulation.dart';
 import 'package:vmeducation/src/model/tour.dart';
 
@@ -31,6 +33,8 @@ class AppData {
   static const String service2 = 'Café, Nhà hàng';
   static const String service3 = 'Cửa hàng lưu niệm';
   static const String service4 = 'Cửa hàng sách';
+
+  static const String lesson = 'Danh sách bài học';
 
 
   //List of information section
@@ -238,5 +242,102 @@ class AppData {
       title: 'Liên hệ đặt tour', 
       content: '04-3756-2193\n\nBảo tàng mở cửa hàng ngày từ 8h30 đến 17h30. Đóng cửa các ngày thứ Hai và Tết Nguyên đán'
     ),
+  ];
+
+  static List<Learning> learningSectionList = [
+    Learning(
+      sectionTitle: 'Nhóm ngôn ngữ Việt - Mường',
+      subsections: [
+        LearningItem(subsectionTitle: 'Người Chứt', imageURL: 'assets/images/l1_1.png'),
+        LearningItem(subsectionTitle: 'Người Mường', imageURL: 'assets/images/l1_2.png'),
+        LearningItem(subsectionTitle: 'Người Thổ', imageURL: 'assets/images/l1_3.png'),
+        LearningItem(subsectionTitle: 'Người Việt', imageURL: 'assets/images/l1_4.png')
+      ] 
+    ),
+    Learning(
+      sectionTitle: 'Nhóm ngôn ngữ Tày - Thái',
+      subsections: [
+        LearningItem(subsectionTitle: 'Người Bố Y', imageURL: 'assets/images/l2_1.png'),
+        LearningItem(subsectionTitle: 'Người Giáy', imageURL: 'assets/images/l2_2.png'),
+        LearningItem(subsectionTitle: 'Người Lào', imageURL: 'assets/images/l2_3.png'),
+        LearningItem(subsectionTitle: 'Người Lự', imageURL: 'assets/images/l2_4.png'),
+        LearningItem(subsectionTitle: 'Người Nùng', imageURL: 'assets/images/l2_5.png'),
+        LearningItem(subsectionTitle: 'Người Sán Chay', imageURL: 'assets/images/l2_6.png'),
+        LearningItem(subsectionTitle: 'Người Tày', imageURL: 'assets/images/l2_7.png'),
+        LearningItem(subsectionTitle: 'Người Thái', imageURL: 'assets/images/l2_8.png')
+      ] 
+    ),
+    Learning(
+      sectionTitle: 'Nhóm ngôn ngữ Kađai',
+      subsections: [
+        LearningItem(subsectionTitle: 'Người Cờ Lao', imageURL: 'assets/images/l3_1.png'),
+        LearningItem(subsectionTitle: 'Người La Chí', imageURL: 'assets/images/l3_2.png'),
+        LearningItem(subsectionTitle: 'Người La Ha', imageURL: 'assets/images/l3_3.png'),
+        LearningItem(subsectionTitle: 'Người Pu Péo', imageURL: 'assets/images/l3_4.png'),
+      ] 
+    ),
+    Learning(
+      sectionTitle: 'Nhóm ngôn ngữ Hmông - Dao',
+      subsections: [
+        LearningItem(subsectionTitle: 'Người Dao', imageURL: 'assets/images/l4_1.png'),
+        LearningItem(subsectionTitle: 'Người Hmông', imageURL: 'assets/images/l4_2.png'),
+        LearningItem(subsectionTitle: 'Người Pà Thẻn', imageURL: 'assets/images/l4_3.png'),
+      ] 
+    ),
+    Learning(
+      sectionTitle: 'Nhóm ngôn ngữ Hán',
+      subsections: [
+        LearningItem(subsectionTitle: 'Người Hoa', imageURL: 'assets/images/l5_1.png'),
+        LearningItem(subsectionTitle: 'Người Ngái', imageURL: 'assets/images/l5_2.png'),
+        LearningItem(subsectionTitle: 'Người Sán Dìu', imageURL: 'assets/images/l5_3.png'),
+      ] 
+    ),
+    Learning(
+      sectionTitle: 'Nhóm ngôn ngữ Tạng - Miến',
+      subsections: [
+        LearningItem(subsectionTitle: 'Người Cống', imageURL: 'assets/images/l6_1.png'),
+        LearningItem(subsectionTitle: 'Người Hà Nhì', imageURL: 'assets/images/l6_2.png'),
+        LearningItem(subsectionTitle: 'Người La Hủ', imageURL: 'assets/images/l6_3.png'),
+        LearningItem(subsectionTitle: 'Người Lô Lô', imageURL: 'assets/images/l6_4.png'),
+        LearningItem(subsectionTitle: 'Người Phù Lá', imageURL: 'assets/images/l6_5.png'),
+        LearningItem(subsectionTitle: 'Người Si La', imageURL: 'assets/images/l6_6.png'),
+      ] 
+    ),
+    Learning(
+      sectionTitle: 'Nhóm ngôn ngữ Môn - Khơme',
+      subsections: [
+        LearningItem(subsectionTitle: 'Người Mảng', imageURL: 'assets/images/l7_1.png'),
+        LearningItem(subsectionTitle: 'Người Ơđu', imageURL: 'assets/images/l7_2.png'),
+        LearningItem(subsectionTitle: 'Người Kháng', imageURL: 'assets/images/l7_3.png'),
+        LearningItem(subsectionTitle: 'Người Khơmú', imageURL: 'assets/images/l7_4.png'),
+        LearningItem(subsectionTitle: 'Người Xinhmun', imageURL: 'assets/images/l7_5.png'),
+        LearningItem(subsectionTitle: 'Người Rơmăm', imageURL: 'assets/images/l7_6.png'),
+        LearningItem(subsectionTitle: 'Người Brâu', imageURL: 'assets/images/l7_7.png'),
+        LearningItem(subsectionTitle: 'Người Bru-vân Kiều', imageURL: 'assets/images/l7_8.png'),
+        LearningItem(subsectionTitle: 'Người Khơme', imageURL: 'assets/images/l7_9.png'),
+        LearningItem(subsectionTitle: 'Người Cơtu', imageURL: 'assets/images/l7_10.png'),
+        LearningItem(subsectionTitle: 'Người Gié-Triêng', imageURL: 'assets/images/l7_11.png'),
+        LearningItem(subsectionTitle: 'Người Bana', imageURL: 'assets/images/l7_12.png'),
+        LearningItem(subsectionTitle: 'Người Tàôi', imageURL: 'assets/images/l7_13.png'),
+        LearningItem(subsectionTitle: 'Người Mạ', imageURL: 'assets/images/l7_14.png'),
+        LearningItem(subsectionTitle: 'Người Co', imageURL: 'assets/images/l7_15.png'),
+        LearningItem(subsectionTitle: 'Người Chơro', imageURL: 'assets/images/l7_16.png'),
+        LearningItem(subsectionTitle: 'Người Xơđăng', imageURL: 'assets/images/l7_17.png'),
+        LearningItem(subsectionTitle: 'Người Cơho', imageURL: 'assets/images/l7_18.png'),
+        LearningItem(subsectionTitle: 'Người Hrê', imageURL: 'assets/images/l7_19.png'),
+        LearningItem(subsectionTitle: 'Người Mnông', imageURL: 'assets/images/l7_20.png'),
+        LearningItem(subsectionTitle: 'Người Xtiêng', imageURL: 'assets/images/l7_21.png'),
+      ] 
+    ),
+    Learning(
+      sectionTitle: 'Nhóm ngôn ngữ Nam Đảo',
+      subsections: [
+        LearningItem(subsectionTitle: 'Người Chăm', imageURL: 'assets/images/l8_1.png'),
+        LearningItem(subsectionTitle: 'Người Churu', imageURL: 'assets/images/l8_2.png'),
+        LearningItem(subsectionTitle: 'Người Êđê', imageURL: 'assets/images/l8_3.png'),
+        LearningItem(subsectionTitle: 'Người Giarai', imageURL: 'assets/images/l8_4.png'),
+        LearningItem(subsectionTitle: 'Người Raglai', imageURL: 'assets/images/l8_5.png'),
+      ] 
+    )
   ];
 }
