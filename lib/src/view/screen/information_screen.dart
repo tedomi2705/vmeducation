@@ -23,7 +23,7 @@ class _InformationScreenState extends State<InformationScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.only(left: 25, bottom: 20),
+              padding: const EdgeInsets.only(left: 25, bottom: 20, top: 10),
               child: Text(AppData.news, style: AppBarTitleStyle),
             ),
             Carousel(),

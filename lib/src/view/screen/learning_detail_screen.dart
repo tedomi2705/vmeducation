@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:vmeducation/core/app_data.dart';
 import 'package:vmeducation/core/app_style.dart';
+import 'package:vmeducation/src/view/widget/lesson_detail.dart';
 
 class LearningDetailScreen extends StatefulWidget {
-  const LearningDetailScreen({super.key});
+  final String sectionTitle;
+  const LearningDetailScreen({
+    super.key,
+    required this.sectionTitle
+  });
 
   @override
   State<LearningDetailScreen> createState() => _LearningDetailScreenState();
@@ -16,9 +21,11 @@ class _LearningDetailScreenState extends State<LearningDetailScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: const Text(AppData.lesson, style: AppBarTitleStyle)
+        surfaceTintColor: Colors.white,
       ),
-      body: Text('abc'),
+      body: Container(
+        child: LessonDetail(lessonTitle: widget.sectionTitle),
+      )
     );
   }
 }

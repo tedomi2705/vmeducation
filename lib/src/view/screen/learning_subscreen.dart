@@ -24,9 +24,10 @@ class _LearningSubscreenState extends State<LearningSubscreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
             backgroundColor: Colors.white,
+            surfaceTintColor: Colors.white,
             title: const Text(AppData.lesson, style: AppBarTitleStyle)),
       body: Container(
-      child: LearningSubsection(sectionTitle: widget.sectionTitle)
+        child: LearningSubsection(sectionTitle: widget.sectionTitle)
       )
     );
   }

@@ -30,7 +30,7 @@ class LearningSubsection extends StatelessWidget {
               color: AppColor.navBarBg,
               child: InkWell(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => LearningDetailScreen()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => LearningDetailScreen(sectionTitle: item.subsectionTitle)));
                 },
                 child: Column(
                   children: [

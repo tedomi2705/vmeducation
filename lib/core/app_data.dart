@@ -1,7 +1,10 @@
+import 'package:flutter/material.dart';
 import 'package:vmeducation/src/model/admission.dart';
 import 'package:vmeducation/src/model/info_section.dart';
 import 'package:vmeducation/src/model/learning.dart';
 import 'package:vmeducation/src/model/learning_item.dart';
+import 'package:vmeducation/src/model/lesson.dart';
+import 'package:vmeducation/src/model/lesson_image.dart';
 import 'package:vmeducation/src/model/regulation.dart';
 import 'package:vmeducation/src/model/tour.dart';
 
@@ -35,6 +38,10 @@ class AppData {
   static const String service4 = 'Cửa hàng sách';
 
   static const String lesson = 'Danh sách bài học';
+  static const String lessonImg = 'Hình ảnh liên quan';
+
+  static const String back = 'Quay lại';
+  static const String go = 'Bài học';
 
 
   //List of information section
@@ -339,5 +346,19 @@ class AppData {
         LearningItem(subsectionTitle: 'Người Raglai', imageURL: 'assets/images/l8_5.png'),
       ] 
     )
+  ];
+
+  static List<Lesson> lessonList = [
+    Lesson(
+      lessonTitle: 'Người Chứt', 
+      lessonContent: '''
+      Dân tộc Chứt gồm có 5 nhóm Sách, Mày, Rục, Arem, Mã Liềng với dân số hơn 7.500 người (2019). Họ cư trú rải rác trong những thung lũng hẹp của dải Trường Sơn thuộc các huyện Minh Hoá, Tuyên Hoá và Bố Trạch (tỉnh Quảng Bình); một số ít ở huyện Hương Khê (tỉnh Hà Tĩnh).
+      Người Chứt vốn là cư dân nông nghiệp, nhưng do các nhóm nhỏ sống gần như tách biệt nhau, nên đời sống kinh tế và trình độ phát triển giữa các nhóm có sự khác biệt nhất định. Nhóm Sách ở vùng thấp, ngoài nương rẫy còn làm ruộng nước, ruộng khô, chăn nuôi gia súc, gia cầm. Nhà cửa của họ khá kiên cố, làng bản tập trung. Các nhóm khác đều ở vùng cao, trước kia sống dựa vào săn bắt và hái lượm những sản phẩm của núi rừng, đặc biệt là thịt khỉ và bột cây nhúc. Họ cư trú phân tán, nhà ở tạm bợ. Cách đây không lâu, còn có một số gia đình thuộc nhóm Rục sống trong các mái đá và hang động.
+      ''', 
+      lessonImages: [
+        LessonImage(imageUrl: 'assets/images/l1_1_1.jpg', imageTitle: 'Mẹ con - Quảng Bình 1997'),
+        LessonImage(imageUrl: 'assets/images/l1_1_2.jpg', imageTitle: 'Một làng người Chứt - Quảng Bình 1997'),
+        LessonImage(imageUrl: 'assets/images/l1_1_3.jpg', imageTitle: 'Bóc vỏ cây - Quảng Bình 1997')
+      ])
   ];
 }
