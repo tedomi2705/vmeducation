@@ -162,7 +162,14 @@ class _CollectionScreenState extends State<CollectionScreen> {
               onPressed: () {
                 Navigator.pop(context); // Đóng hộp thoại
               },
-              child: Text('Để sau'),
+              child: Text(
+                          'Để sau',
+                          textAlign: TextAlign.center,
+                          style: const TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+              ),
             ),
             TextButton(
               onPressed: () {
@@ -172,7 +179,14 @@ class _CollectionScreenState extends State<CollectionScreen> {
                   MaterialPageRoute(builder: (context) => LearningScreen()), // Điều hướng đến LearningScreen
                 );
               },
-              child: Text('Có'),
+              child: Text(
+                          'OK',
+                          textAlign: TextAlign.center,
+                          style: const TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+              )
             ),
           ],
         );
