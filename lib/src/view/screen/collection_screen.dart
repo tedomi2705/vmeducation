@@ -28,7 +28,6 @@ class _CollectionScreenState extends State<CollectionScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 234, 241, 234),
         actions: [
           PopupMenuButton<DisplayMode>(
             icon: const Icon(
@@ -46,13 +45,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
                   leading: displayMode == DisplayMode.all
                       ? const Icon(Icons.check, color: Colors.green)
                       : null,
-                  title: Text(
-                          'Tất cả',
-                          style: const TextStyle(
-                            fontSize: 15,
-                            fontWeight: FontWeight.bold,
-                          ),
-              ),
+                  title: Text('Tất cả', style: lessonContentStyle),
                   tileColor: displayMode == DisplayMode.all
                       ? Colors.green.withOpacity(0.1)
                       : null,
@@ -64,13 +57,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
                   leading: displayMode == DisplayMode.unlocked
                       ? const Icon(Icons.check, color: Colors.green)
                       : null,
-                  title: Text(
-                          'Đã mở khóa',
-                          style: const TextStyle(
-                            fontSize: 15,
-                            fontWeight: FontWeight.bold,
-                          ),
-              ),
+                  title: Text(AppData.unlocked, style: lessonContentStyle),
                   tileColor: displayMode == DisplayMode.unlocked
                       ? Colors.green.withOpacity(0.1)
                       : null,
@@ -80,17 +67,11 @@ class _CollectionScreenState extends State<CollectionScreen> {
                 value: DisplayMode.locked,
                 child: ListTile(
                   leading: displayMode == DisplayMode.locked
-                      ? const Icon(Icons.check, color: Color.fromARGB(255, 38, 174, 90))
+                      ? const Icon(Icons.check, color: AppColor.green1)
                       : null,
-                  title: Text(
-                          'Chưa mở khóa',
-                          style: const TextStyle(
-                            fontSize: 15,
-                            fontWeight: FontWeight.bold,
-                          ),
-              ),
+                  title: Text(AppData.locked, style: lessonContentStyle),
                   tileColor: displayMode == DisplayMode.locked
-                      ? const Color.fromARGB(255, 33, 243, 117).withOpacity(0.1)
+                      ? AppColor.green2.withOpacity(0.1)
                       : null,
                 ),
               ),
@@ -125,14 +106,14 @@ class _CollectionScreenState extends State<CollectionScreen> {
                   child: Container(
                     padding: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: collection.isUnlocked ? const Color.fromARGB(133, 31, 173, 31) : const Color.fromARGB(255, 214, 225, 217),
+                      color: collection.isUnlocked ? AppColor.green3 : AppColor.green4,
                       borderRadius: BorderRadius.circular(30),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         CircleAvatar(
-                          backgroundColor: collection.isUnlocked ? const Color.fromARGB(255, 92, 187, 108) : Colors.grey,
+                          backgroundColor: collection.isUnlocked ? AppColor.green5 : Colors.grey,
                           child: Icon(
                             collection.icon,
                             color: Colors.white,
@@ -176,21 +157,13 @@ class _CollectionScreenState extends State<CollectionScreen> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Bạn có muốn mở khóa thành tựu?'),
+          title: Text(AppData.ask),
           actions: [
             TextButton(
               onPressed: () {
                 Navigator.pop(context); // Đóng hộp thoại
               },
-              child: Text(
-                          'Để sau',
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color: Color.fromARGB(255, 25, 136, 49)
-                          ),
-              ),
+              child: const Text(AppData.later, textAlign: TextAlign.center, style: ExpansionPanelTitleStyle),
             ),
             TextButton(
               onPressed: () {
@@ -200,15 +173,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
                   MaterialPageRoute(builder: (context) => LearningScreen()), // Điều hướng đến LearningScreen
                 );
               },
-              child: Text(
-                          'OK',
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color: Color.fromARGB(255, 25, 136, 49)
-                          ),
-              )
+              child: const Text(AppData.unlock, textAlign: TextAlign.center, style: ExpansionPanelTitleStyle)
             ),
           ],
         );

@@ -44,6 +44,14 @@ class AppData {
   static const String back = 'Quay lại';
   static const String go = 'Bài học';
 
+  static const String all = 'Tất cả';
+  static const String unlocked = 'Đã mở khóa';
+  static const String locked = 'Chưa mở khóa';
+  static const String ask = 'Bạn có muốn mở khóa thành tựu?';
+  static const String later = 'Để sau';
+  static const String unlock = 'Mở khóa';
+
+
 
   //List of information section
   static List<InfoSection> infoList = [
@@ -1257,4 +1265,5 @@ class AppData {
   // Add more achievements as needed
   ];
 }
+  
 
