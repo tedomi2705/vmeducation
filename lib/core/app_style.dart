@@ -95,6 +95,12 @@ const lessonContentStyle = TextStyle(
   fontWeight: FontWeight.w400,
 );
 
+const settingsCardStyle = TextStyle(
+  color: Colors.black,
+  fontSize: 20,
+  fontWeight: FontWeight.w400,
+);
+
 //PaddingStyle
 const onboardingPaddingStyle = EdgeInsets.only(left: 50.0, right: 50.0, bottom: 50.0);
 
