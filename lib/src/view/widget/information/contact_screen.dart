@@ -21,7 +21,7 @@ class _ContactScreenState extends State<ContactScreen> {
           title: const Text(AppData.contact, style: AppBarTitleStyle),
         ),
         body: SingleChildScrollView(
-            child: Column(children: [
+          child: Column(children: [
           ContactCard(
               iconAsset: Ionicons.call_sharp,
               cardTitle: '+ 84-24-3756-2193',

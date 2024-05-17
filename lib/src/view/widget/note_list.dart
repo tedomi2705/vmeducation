@@ -24,6 +24,7 @@ class NoteList extends StatelessWidget {
       width: size.width,
       height: 400,
       child: GridView.count(
+        physics: BouncingScrollPhysics(),
         padding: const EdgeInsets.all(20),
         shrinkWrap: true,
         crossAxisCount: 3,

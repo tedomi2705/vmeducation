@@ -19,6 +19,7 @@ class _ServiceScreenState extends State<ServiceScreen> {
           title: const Text(AppData.service, style: AppBarTitleStyle),
         ),
         body: SingleChildScrollView(
+          physics: BouncingScrollPhysics(),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

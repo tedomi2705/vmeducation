@@ -83,6 +83,24 @@ const contactCardStyle = TextStyle(
   fontWeight: FontWeight.bold,
 );
 
+const titleStyle = TextStyle(
+  color: AppColor.primaryColor,
+  fontSize: 30,
+  fontWeight: FontWeight.bold,
+);
+
+const lessonContentStyle = TextStyle(
+  color: Colors.black,
+  fontSize: 15,
+  fontWeight: FontWeight.w400,
+);
 
 //PaddingStyle
 const onboardingPaddingStyle = EdgeInsets.only(left: 50.0, right: 50.0, bottom: 50.0);
+
+
+var buttonStyle = ElevatedButton.styleFrom(
+  backgroundColor: AppColor.primaryColor,
+  padding: EdgeInsets.symmetric(horizontal: 50, vertical: 10),
+  textStyle: contactCardStyle
+);

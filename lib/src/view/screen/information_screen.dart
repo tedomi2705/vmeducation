@@ -16,12 +16,14 @@ class _InformationScreenState extends State<InformationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.only(left: 25, bottom: 20),
+              padding: const EdgeInsets.only(left: 25, bottom: 20, top: 10),
               child: Text(AppData.news, style: AppBarTitleStyle),
             ),
             Carousel(),
