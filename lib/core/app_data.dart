@@ -1,4 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:vmeducation/src/model/admission.dart';
+import 'package:vmeducation/src/model/collection.dart';
 import 'package:vmeducation/src/model/info_section.dart';
 import 'package:vmeducation/src/model/regulation.dart';
 import 'package:vmeducation/src/model/tour.dart';
@@ -239,4 +241,69 @@ class AppData {
       content: '04-3756-2193\n\nBảo tàng mở cửa hàng ngày từ 8h30 đến 17h30. Đóng cửa các ngày thứ Hai và Tết Nguyên đán'
     ),
   ];
+
+  static List<Collection> collections = [
+  Collection(
+    title: 'Trống đồng',
+    description: 'Complete 10 lessons',
+    icon: Icons.music_note,
+    isUnlocked: true,
+  ),
+  Collection(
+    title: 'Nhà sàn',
+    description: 'Complete 30 lessons',
+    icon: Icons.house_siding,
+    isUnlocked: true,
+  ),
+  Collection(
+    title: 'Nón lá',
+    description: 'Complete 50 lessons',
+    icon: Icons.star,
+    isUnlocked: false,
+  ),
+  Collection(
+    title: 'test',
+    description: 'Complete 50 lessons',
+    icon: Icons.star,
+    isUnlocked: true,
+  ),
+  Collection(
+    title: 'Nhà sàn',
+    description: 'Complete 30 lessons',
+    icon: Icons.house_siding,
+    isUnlocked: true,
+  ),
+  Collection(
+    title: 'Nón lá',
+    description: 'Complete 50 lessons',
+    icon: Icons.star,
+    isUnlocked: false,
+  ),
+  Collection(
+    title: 'test',
+    description: 'Complete 50 lessons',
+    icon: Icons.star,
+    isUnlocked: true,
+  ),
+  Collection(
+    title: 'Trống đồng',
+    description: 'Complete 10 lessons',
+    icon: Icons.music_note,
+    isUnlocked: true,
+  ),
+  Collection(
+    title: 'Nhà sàn',
+    description: 'Complete 30 lessons',
+    icon: Icons.house_siding,
+    isUnlocked: true,
+  ),
+  Collection(
+    title: 'Nón lá',
+    description: 'Complete 50 lessons',
+    icon: Icons.star,
+    isUnlocked: false,
+  ),
+  // Add more achievements as needed
+  ];
 }
+
