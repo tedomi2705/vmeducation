@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 class QuizScreen extends StatefulWidget {
-  const QuizScreen({super.key});
+  final String lessonTitle;
+  const QuizScreen({
+    super.key,
+    required this.lessonTitle
+  });
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -18,7 +22,11 @@ class _QuizScreenState extends State<QuizScreen> {
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
         child: Column(
-          
+          children: [
+            Center(
+              child: Text(widget.lessonTitle),
+            )
+          ],
         )
       )
     );

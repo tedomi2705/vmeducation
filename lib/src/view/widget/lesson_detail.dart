@@ -4,7 +4,6 @@ import 'package:vmeducation/core/app_data.dart';
 import 'package:vmeducation/core/app_style.dart';
 import 'package:vmeducation/src/model/lesson.dart';
 import 'package:vmeducation/src/view/screen/quiz_screen.dart';
-import 'package:vmeducation/src/view/widget/carousel.dart';
 
 class LessonDetail extends StatelessWidget {
   final String lessonTitle;
@@ -39,8 +38,8 @@ class LessonDetail extends StatelessWidget {
                 child: Column(
                   children: [
                     ClipRRect(
-                      borderRadius: BorderRadius.circular(10),
-                      child: Image.asset(_lesson.lessonImages[index].imageUrl, width: 300)
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(_lesson.lessonImages[index].imageUrl, width: 300, height: 200)
                     ), 
                     Text(_lesson.lessonImages[index].imageTitle, style: noteListStyle),
                   ],
@@ -72,7 +71,7 @@ class LessonDetail extends StatelessWidget {
               ElevatedButton(
                 style: buttonStyle,
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => QuizScreen()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => QuizScreen(lessonTitle: lessonTitle)));
                 },
                 child: Text(AppData.go, style: contactCardStyle),
               ),

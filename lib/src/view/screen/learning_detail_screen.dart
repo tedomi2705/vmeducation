@@ -22,6 +22,7 @@ class _LearningDetailScreenState extends State<LearningDetailScreen> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         surfaceTintColor: Colors.white,
+        title: Text(widget.sectionTitle, style: AppBarTitleStyle),
       ),
       body: Container(
         child: LessonDetail(lessonTitle: widget.sectionTitle),
