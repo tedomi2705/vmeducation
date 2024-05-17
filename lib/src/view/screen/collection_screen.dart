@@ -27,7 +27,9 @@ class _CollectionScreenState extends State<CollectionScreen> {
     List<Collection> displayedCollections = _getDisplayedCollections();
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.white,
         actions: [
           PopupMenuButton<DisplayMode>(
             icon: const Icon(
@@ -79,63 +81,65 @@ class _CollectionScreenState extends State<CollectionScreen> {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Expanded(
-            child: GridView.builder(
-              padding: const EdgeInsets.all(20),
-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 3, // Số cột trong lưới
-                crossAxisSpacing: 15, // Khoảng cách giữa các cột
-                mainAxisSpacing: 15, // Khoảng cách giữa các hàng
+      body: Container(
+        child: Column(
+          children: [
+            Expanded(
+              child: GridView.builder(
+                padding: const EdgeInsets.all(20),
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 3, // Số cột trong lưới
+                  crossAxisSpacing: 15, // Khoảng cách giữa các cột
+                  mainAxisSpacing: 15, // Khoảng cách giữa các hàng
+                ),
+                itemCount: displayedCollections.length,
+                itemBuilder: (context, index) {
+                  final collection = displayedCollections[index];
+                  return GestureDetector(
+                    onTap: () {
+                      if (collection.isUnlocked) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => ARScreen()),
+                        );
+                      } else {
+                        _showUnlockDialog();
+                      }
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: collection.isUnlocked ? AppColor.green3 : AppColor.green4,
+                        borderRadius: BorderRadius.circular(30),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          CircleAvatar(
+                            backgroundColor: collection.isUnlocked ? AppColor.green5 : Colors.grey,
+                            child: Icon(
+                              collection.icon,
+                              color: Colors.white,
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            collection.title,
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  );
+                },
               ),
-              itemCount: displayedCollections.length,
-              itemBuilder: (context, index) {
-                final collection = displayedCollections[index];
-                return GestureDetector(
-                  onTap: () {
-                    if (collection.isUnlocked) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => ARScreen()),
-                      );
-                    } else {
-                      _showUnlockDialog();
-                    }
-                  },
-                  child: Container(
-                    padding: const EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: collection.isUnlocked ? AppColor.green3 : AppColor.green4,
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        CircleAvatar(
-                          backgroundColor: collection.isUnlocked ? AppColor.green5 : Colors.grey,
-                          child: Icon(
-                            collection.icon,
-                            color: Colors.white,
-                          ),
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          collection.title,
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                );
-              },
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
