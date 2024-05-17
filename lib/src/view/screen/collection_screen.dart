@@ -31,7 +31,9 @@ class _CollectionScreenState extends State<CollectionScreen> {
         backgroundColor: const Color.fromARGB(255, 234, 241, 234),
         actions: [
           PopupMenuButton<DisplayMode>(
-            icon: const Icon(Icons.menu),
+            icon: const Icon(
+              Icons.menu,
+              size: 30,),
             onSelected: (DisplayMode result) {
               setState(() {
                 displayMode = result;
@@ -42,11 +44,17 @@ class _CollectionScreenState extends State<CollectionScreen> {
                 value: DisplayMode.all,
                 child: ListTile(
                   leading: displayMode == DisplayMode.all
-                      ? const Icon(Icons.check, color: Colors.blue)
+                      ? const Icon(Icons.check, color: Colors.green)
                       : null,
-                  title: const Text('Tất cả'),
+                  title: Text(
+                          'Tất cả',
+                          style: const TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                          ),
+              ),
                   tileColor: displayMode == DisplayMode.all
-                      ? Colors.blue.withOpacity(0.1)
+                      ? Colors.green.withOpacity(0.1)
                       : null,
                 ),
               ),
@@ -54,11 +62,17 @@ class _CollectionScreenState extends State<CollectionScreen> {
                 value: DisplayMode.unlocked,
                 child: ListTile(
                   leading: displayMode == DisplayMode.unlocked
-                      ? const Icon(Icons.check, color: Colors.blue)
+                      ? const Icon(Icons.check, color: Colors.green)
                       : null,
-                  title: const Text('Đã mở khóa'),
+                  title: Text(
+                          'Đã mở khóa',
+                          style: const TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                          ),
+              ),
                   tileColor: displayMode == DisplayMode.unlocked
-                      ? Colors.blue.withOpacity(0.1)
+                      ? Colors.green.withOpacity(0.1)
                       : null,
                 ),
               ),
@@ -66,11 +80,17 @@ class _CollectionScreenState extends State<CollectionScreen> {
                 value: DisplayMode.locked,
                 child: ListTile(
                   leading: displayMode == DisplayMode.locked
-                      ? const Icon(Icons.check, color: Colors.blue)
+                      ? const Icon(Icons.check, color: Color.fromARGB(255, 38, 174, 90))
                       : null,
-                  title: const Text('Chưa mở khóa'),
+                  title: Text(
+                          'Chưa mở khóa',
+                          style: const TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                          ),
+              ),
                   tileColor: displayMode == DisplayMode.locked
-                      ? Colors.blue.withOpacity(0.1)
+                      ? const Color.fromARGB(255, 33, 243, 117).withOpacity(0.1)
                       : null,
                 ),
               ),
@@ -106,7 +126,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
                     padding: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
                       color: collection.isUnlocked ? const Color.fromARGB(133, 31, 173, 31) : const Color.fromARGB(255, 214, 225, 217),
-                      borderRadius: BorderRadius.circular(10),
+                      borderRadius: BorderRadius.circular(30),
                     ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -168,6 +188,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
                           style: const TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
+                            color: Color.fromARGB(255, 25, 136, 49)
                           ),
               ),
             ),
@@ -185,6 +206,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
                           style: const TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
+                            color: Color.fromARGB(255, 25, 136, 49)
                           ),
               )
             ),
