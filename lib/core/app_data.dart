@@ -58,6 +58,7 @@ class AppData {
   static const String receive = 'Bạn đã mở khóa mô hình';
   static const String model = 'Cổ vật';
   static const String backToHome = 'Trở về trang chủ';
+  static const String gotoCollection = 'Xem trong bộ sưu tập';
 
 
 
@@ -1321,6 +1322,161 @@ class AppData {
           options: ['Múa khăn', 'Múa hoa', 'Múa tay', 'Múa bông'],
           answer: 3,
         ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Thổ', 
+      questionsList: [
+        Question(
+          question: 'Dân số của người Thổ là bao nhiêu (2019)?', 
+          options: ['81.000 người', '91.000 người', '100.000 người', '110.000 người'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Thổ thường xây và ở loại nhà nào?', 
+          options: ['Nhà sàn', 'Nhà lầu', 'Nhà rơm', 'Nhà cao tầng'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Thổ cư trú chủ yếu ở miền Tây tỉnh nào?', 
+          options: ['Hà Tĩnh', 'Hòa Bình', 'Nghệ An', 'Quảng Ngãi'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Trong nhà người Thổ lúc nào cũng có võng gai và chiếc cỗi gỗ hình gì?', 
+          options: ['Thuyền', 'Diều', 'Nón', 'Tròn'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Việt', 
+      questionsList: [
+        Question(
+          question: 'Người Việt(Kinh) chiếm gần bao nhiêu % dân số toàn quốc?', 
+          options: ['85,3', '75,3', '83,5', '73,5'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Hình thức nhà nước đầu tiên của người Việt cổ xuất hiện từ khoảng nào?', 
+          options: ['Đầu TNK I TCN', 'Giữa TNK I TCN', 'Sau TNK I TCN', 'Không có dữ liệu'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Việt tập trung chủ yếu ở vùng nào?', 
+          options: ['Đồi núi', 'Thung lũng', 'Cao Nguyên', 'Đồng bằng, trung du'],
+          answer: 3,
+        ),
+        Question(
+          question: '____là môi trường duy trì cơ cấu xã hội và văn hóa truyền thống Việt', 
+          options: ['Xã', 'Làng', 'Tỉnh', 'Thôn'],
+          answer: 1,
+        ),
+        
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Bố Y', 
+      questionsList: [
+        Question(
+          question: 'Dân tộc Bố Y có dân số là bao nhiêu?', 
+          options: ['2.200 người', '3.200 người', '4.200 người', '5.200 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Bố Y sống chủ yếu bằng nghề gì?', 
+          options: ['Làm Ruộng', 'Chăn nuôi', 'Săn bắt', 'Nương rẫy'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Hầu như quanh năm ____?', 
+          options: ['Lượng mưa nhỏ', 'Độ ẩm thấp', 'Sương mù bao phủ', 'Không có mưa'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Nhà người Bố Y có đặc điểm gì?', 
+          options: ['Hai mái vuông', 'Cấu trúc hai gian', 'Phía sau là hàng hiên', 'Một mái'],
+          answer: 0,
+        ),
+        
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Giáy', 
+      questionsList: [
+        Question(
+          question: 'Dân số của người Giáy là gần bao nhiêu?', 
+          options: ['88.000 người', '78.000 người', '68.000 người', '58.000 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Nếp sinh hoạt gần với người nào?', 
+          options: ['Người Tày', 'Người Dao', 'Người Kinh', 'Người Thổ'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Con cái lấy họ theo?', 
+          options: ['Cha', 'Mẹ', 'Cả Cha và mẹ', 'Không có họ'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Nhà trai không đủ tiền để cưới hỏi đường hoàng, chàng trai phải tổ chức?', 
+          options: ['Lấy vợ', 'Kéo vợ', 'Bắt vợ', 'Trốn vợ'],
+          answer: 0,
+        ),
+        
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Lào', 
+      questionsList: [
+        Question(
+          question: 'Dân số của người Lào là hơn bao nhiêu (2019)?', 
+          options: ['16.000 người', '17.000 người', '18.000 người', '19.000 người'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Lào thường mang các họ Lò, Lường, Vi,... như?', 
+          options: ['Người Thái', 'Người Kinh', 'Người Thổ', 'Người Dao'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Phổ biến là hình thức gia đình nào?', 
+          options: ['Lớn', 'Vừa', 'Nhỏ', 'Khá'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Nhà ở thường có đặc điểm gì?', 
+          options: ['Chật chội', 'Nhỏ', 'Cao tầng', 'Thoáng đãng'],
+          answer: 3,
+        ),
+        
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Lự', 
+      questionsList: [
+        Question(
+          question: 'Dân số của người Lự là hơn bao nhiêu (2019)?', 
+          options: ['6.700 người', '7.000 người', '7.700 người', '8.000 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Thổ có truyền thống làm gì từ lâu đời?', 
+          options: ['May vá', 'Săn bắt', 'Nương rẫy', 'Ruộng'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Trong các nghề phụ của người Lự, nghề nào là phát triển nhất?', 
+          options: ['Dệt', 'Xây', 'Gốm', 'Săn'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Tên con trai người Lự có đệm là gì?', 
+          options: ['Ý', 'Bạ', 'Văn', 'Thị'],
+          answer: 1,
+        ),
+        
       ]
     ),
   ];

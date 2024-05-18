@@ -4,6 +4,7 @@ import 'package:vmeducation/core/app_color.dart';
 import 'package:vmeducation/core/app_data.dart';
 import 'package:vmeducation/core/app_style.dart';
 import 'package:vmeducation/src/controller/question_controller.dart';
+import 'package:vmeducation/src/view/screen/collection_screen.dart';
 import 'package:vmeducation/src/view/screen/home_screen.dart';
 
 class ResultScreen extends StatelessWidget {
@@ -55,6 +56,14 @@ class ResultScreen extends StatelessWidget {
               _questionController.onClose();
             },
             child: Text(AppData.backToHome, style: contactCardStyle),
+          ),
+          ElevatedButton(
+            style: buttonStyle,
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => CollectionScreen()));
+              _questionController.onClose();
+            },
+            child: Text(AppData.gotoCollection, style: contactCardStyle),
           ),
         ],
       )
