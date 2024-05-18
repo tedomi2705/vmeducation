@@ -30,6 +30,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
+        automaticallyImplyLeading: false,
         actions: [
           PopupMenuButton<DisplayMode>(
             icon: const Icon(

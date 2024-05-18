@@ -101,6 +101,24 @@ const settingsCardStyle = TextStyle(
   fontWeight: FontWeight.w400,
 );
 
+const questionCountStyle = TextStyle(
+  color: Colors.black,
+  fontSize: 25,
+  fontWeight: FontWeight.bold,
+);
+
+const finishStyle = TextStyle(
+  color: AppColor.primaryColor,
+  fontSize: 30,
+  fontWeight: FontWeight.bold,
+);
+
+const modelStyle = TextStyle(
+  color: AppColor.primaryColor,
+  fontSize: 20,
+  fontWeight: FontWeight.bold,
+);
+
 //PaddingStyle
 const onboardingPaddingStyle = EdgeInsets.only(left: 50.0, right: 50.0, bottom: 50.0);
 
