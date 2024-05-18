@@ -6,6 +6,8 @@ import 'package:vmeducation/src/model/learning.dart';
 import 'package:vmeducation/src/model/learning_item.dart';
 import 'package:vmeducation/src/model/lesson.dart';
 import 'package:vmeducation/src/model/lesson_image.dart';
+import 'package:vmeducation/src/model/question.dart';
+import 'package:vmeducation/src/model/quiz.dart';
 import 'package:vmeducation/src/model/regulation.dart';
 import 'package:vmeducation/src/model/tour.dart';
 
@@ -50,6 +52,12 @@ class AppData {
   static const String ask = 'Bạn có muốn mở khóa thành tựu?';
   static const String later = 'Để sau';
   static const String unlock = 'Mở khóa';
+
+  static const String finish = 'Bạn đã hoàn thành bài học!';
+  static const String correct = 'Số câu trả lời đúng:';
+  static const String receive = 'Bạn đã mở khóa mô hình';
+  static const String model = 'Cổ vật';
+  static const String backToHome = 'Trở về trang chủ';
 
 
 
@@ -1202,67 +1210,119 @@ class AppData {
   ];
 
   static List<Collection> collections = [
-  Collection(
-    title: 'Trống đồng',
-    description: 'Complete 10 lessons',
-    icon: Icons.music_note,
-    isUnlocked: true,
-  ),
-  Collection(
-    title: 'Nhà sàn',
-    description: 'Complete 30 lessons',
-    icon: Icons.house_siding,
-    isUnlocked: true,
-  ),
-  Collection(
-    title: 'Nón lá',
-    description: 'Complete 50 lessons',
-    icon: Icons.star,
-    isUnlocked: false,
-  ),
-  Collection(
-    title: 'test',
-    description: 'Complete 50 lessons',
-    icon: Icons.star,
-    isUnlocked: true,
-  ),
-  Collection(
-    title: 'Nhà sàn',
-    description: 'Complete 30 lessons',
-    icon: Icons.house_siding,
-    isUnlocked: true,
-  ),
-  Collection(
-    title: 'Nón lá',
-    description: 'Complete 50 lessons',
-    icon: Icons.star,
-    isUnlocked: false,
-  ),
-  Collection(
-    title: 'test',
-    description: 'Complete 50 lessons',
-    icon: Icons.star,
-    isUnlocked: true,
-  ),
-  Collection(
-    title: 'Trống đồng',
-    description: 'Complete 10 lessons',
-    icon: Icons.music_note,
-    isUnlocked: true,
-  ),
-  Collection(
-    title: 'Nhà sàn',
-    description: 'Complete 30 lessons',
-    icon: Icons.house_siding,
-    isUnlocked: true,
-  ),
-  Collection(
-    title: 'Nón lá',
-    description: 'Complete 50 lessons',
-    icon: Icons.star,
-    isUnlocked: false,
-  ),
-  // Add more achievements as needed
+    Collection(
+      title: 'Trống đồng',
+      description: 'Complete 10 lessons',
+      icon: Icons.music_note,
+      isUnlocked: true,
+    ),
+    Collection(
+      title: 'Nhà sàn',
+      description: 'Complete 30 lessons',
+      icon: Icons.house_siding,
+      isUnlocked: true,
+    ),
+    Collection(
+      title: 'Nón lá',
+      description: 'Complete 50 lessons',
+      icon: Icons.star,
+      isUnlocked: false,
+    ),
+    Collection(
+      title: 'test',
+      description: 'Complete 50 lessons',
+      icon: Icons.star,
+      isUnlocked: true,
+    ),
+    Collection(
+      title: 'Nhà sàn',
+      description: 'Complete 30 lessons',
+      icon: Icons.house_siding,
+      isUnlocked: true,
+    ),
+    Collection(
+      title: 'Nón lá',
+      description: 'Complete 50 lessons',
+      icon: Icons.star,
+      isUnlocked: false,
+    ),
+    Collection(
+      title: 'test',
+      description: 'Complete 50 lessons',
+      icon: Icons.star,
+      isUnlocked: true,
+    ),
+    Collection(
+      title: 'Trống đồng',
+      description: 'Complete 10 lessons',
+      icon: Icons.music_note,
+      isUnlocked: true,
+    ),
+    Collection(
+      title: 'Nhà sàn',
+      description: 'Complete 30 lessons',
+      icon: Icons.house_siding,
+      isUnlocked: true,
+    ),
+    Collection(
+      title: 'Nón lá',
+      description: 'Complete 50 lessons',
+      icon: Icons.star,
+      isUnlocked: false,
+    ),
+  ];
+
+  static List<Quiz> quizList = [
+    Quiz(
+      lessonTitle: 'Người Chứt', 
+      questionsList: [
+        Question(
+          question: 'Dân tộc Chứt gồm mấy nhóm chính?', 
+          options: ['2', '3', '4', '5'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Dân số của người Chứt là bao nhiêu (2019)?', 
+          options: ['3.000 người', '10.000 người', '7.500 người', '6.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Chứt sinh sống chủ yếu ở đâu?', 
+          options: ['Quảng Bình', 'Đà Nẵng', 'Kiên Giang', 'Hòa Bình'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Vũ khí chính khi đi săn của người Chứt là gì?', 
+          options: ['Dao', 'Mũi tên tre/nứa', 'Súng', 'Gậy'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Mường', 
+      questionsList: [
+        Question(
+          question: 'Dân số của người Mường là bao nhiêu (2019)?', 
+          options: ['800.000 người', '2.000.000 người', '1.400.000 người', '1.600.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Mường sinh sống chủ yếu ở đâu?', 
+          options: ['Hà Giang', 'Lạng Sơn', 'Sơn La', 'Hòa Bình'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Một trong những truyện thơ nổi tiếng của người Mường là gì?', 
+          options: ['Út Lót - Hồ Liêu', 'Nghìn lẻ một đêm', 'Truyện Kiều', 'Số đỏ'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Một trong những điệu múa truyền thống của người Mường?', 
+          options: ['Múa khăn', 'Múa hoa', 'Múa tay', 'Múa bông'],
+          answer: 3,
+        ),
+      ]
+    ),
   ];
 }
   
