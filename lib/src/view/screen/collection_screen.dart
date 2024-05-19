@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vmeducation/core/app_color.dart';
 import 'package:vmeducation/core/app_data.dart';
 import 'package:vmeducation/core/app_style.dart';
-import 'package:vmeducation/src/view/screen/ar_screen.dart';
+import 'package:vmeducation/src/utils/utils.dart';
 import 'package:vmeducation/src/view/screen/learning_screen.dart';
 import 'package:vmeducation/src/model/collection.dart';
 
@@ -99,10 +99,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
                   return GestureDetector(
                     onTap: () {
                       if (collection.isUnlocked) {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => ARScreen()),
-                        );
+                        Utils.launchAR(context);
                       } else {
                         _showUnlockDialog();
                       }

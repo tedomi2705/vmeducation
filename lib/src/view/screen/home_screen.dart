@@ -5,9 +5,9 @@ import 'package:page_transition/page_transition.dart';
 import 'package:vmeducation/core/app_color.dart';
 import 'package:vmeducation/core/app_data.dart';
 import 'package:vmeducation/core/app_style.dart';
+import 'package:vmeducation/src/utils/utils.dart';
 import 'package:vmeducation/src/view/screen/information_screen.dart';
 import 'package:vmeducation/src/view/screen/learning_screen.dart';
-import 'package:vmeducation/src/view/screen/ar_screen.dart';
 import 'package:vmeducation/src/view/screen/collection_screen.dart';
 import 'package:vmeducation/src/view/screen/settings_screen.dart';
 
@@ -66,8 +66,8 @@ class _HomeScreenState extends State<HomeScreen> {
       //camera button
       floatingActionButton: FloatingActionButton(
         shape: CircleBorder(),
-        onPressed: (){
-          Navigator.push(context, PageTransition(child: const ARScreen(), type: PageTransitionType.bottomToTop));
+        onPressed: () {
+          Utils.launchAR(context);
         },
         child: Image.asset('assets/images/ar_camera_white.png', height: 30.0),
         backgroundColor: AppColor.primaryColor,
