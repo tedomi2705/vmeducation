@@ -57,7 +57,7 @@ class AppData {
   static const String correct = 'Số câu trả lời đúng:';
   static const String receive = 'Bạn đã mở khóa mô hình';
   static const String model = 'Cổ vật';
-  static const String backToHome = 'Trở về trang chủ';
+  static const String backToHome = 'Trở về học tập';
 
 
   //List of information section
@@ -707,7 +707,7 @@ class AppData {
         LessonImage(imageUrl: 'assets/images/l5_3_1.jpg', imageTitle: 'Phụ nữ Sán Dìu'),
         LessonImage(imageUrl: 'assets/images/l5_3_2.jpg', imageTitle: 'Rước dâu trong đám cưới người Sán Dìu'),
         LessonImage(imageUrl: 'assets/images/l5_3_3.jpg', imageTitle: 'Ngày hội dân gian dân tộc Sán Dìu'),
-        LessonImage(imageUrl: 'assets/images/l5_3_4.jpg', imageTitle: 'Làn điệu Soọng Cô của người Sán Dìu')
+        LessonImage(imageUrl: 'assets/images/l5_3_4.png', imageTitle: 'Làn điệu Soọng Cô của người Sán Dìu')
       ]
     ),
 

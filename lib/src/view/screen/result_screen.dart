@@ -51,7 +51,7 @@ class ResultScreen extends StatelessWidget {
           ElevatedButton(
             style: buttonStyle,
             onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+              Navigator.popUntil(context, (route) => route.isFirst);
               _questionController.onClose();
             },
             child: Text(AppData.backToHome, style: contactCardStyle),
