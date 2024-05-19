@@ -60,7 +60,6 @@ class AppData {
   static const String backToHome = 'Trở về trang chủ';
 
 
-
   //List of information section
   static List<InfoSection> infoList = [
     InfoSection(
@@ -868,7 +867,6 @@ class AppData {
       Theo thống kê dân số năm 2009, ở Việt Nam có gần 23.300 người Xinhmun, cư trú tập trung trong tỉnh Sơn La và tỉnh Điện Biên.
       Người Xinhmun sống chủ yếu bằng canh tác nương rẫy, trồng lúa, ngô. Nghề đan lát khá phát triển, đồ đan của họ đẹp và bền. Nhà sàn truyền thống của Xinhmun có mái khum hình mai rùa. Trước đây, nhằm ghi nhận việc vay mượn, người Xinhmun thường khắc vạch các ký hiệu lên những thanh tre, để người nợ và chủ nợ cùng ghi nhớ. Như nhiều cư dân khác, người Xinhmun có tập quán ăn trầu, nhuộm răng đen, uống rượu cần...
       Nhiều nghi lễ nông nghiệp vẫn thường được tổ chức trong canh tác nương rẫy. Trong tục lệ hôn nhân, có 2 nghi lễ quan trọng: lễ cưới, để đón rể về sống với gia đình nhà gái, và lễ đón dâu về nhà trai, tổ chức nhiều năm sau đó, khi hai vợ chồng đã nhiều tuổi, con đã lớn.
-
       ''', 
       lessonImages: [
         LessonImage(imageUrl: 'assets/images/l7_5_1.jpg', imageTitle: 'Phụ nữ Xinhmun'),
@@ -1320,6 +1318,1526 @@ class AppData {
           question: 'Một trong những điệu múa truyền thống của người Mường?', 
           options: ['Múa khăn', 'Múa hoa', 'Múa tay', 'Múa bông'],
           answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Thổ', 
+      questionsList: [
+        Question(
+          question: 'Người Thổ chủ yếu sinh sống ở đâu?', 
+          options: ['Nghệ An', 'Hà Tĩnh', 'Thanh Hóa', 'Quảng Ninh'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Thổ thuộc nhóm ngôn ngữ nào?', 
+          options: ['Tày - Thái', 'Kađai', 'Hán', 'Việt - Mường'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Dân số của người Thổ là bao nhiêu (2019)?', 
+          options: ['50.000 người', '91.000 người', '20.000 người', '100.000 người'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Đặc điểm nổi bật trong đời sống của người Thổ?', 
+          options: ['Phát triển nghề dệt may', 'Làm nông là chủ yếu', 'Cây gai đóng vai trò quan trọng trong kinh tế', 'Tổ chức tiệc hàng tuần'],
+          answer: 2,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Việt', 
+      questionsList: [
+        Question(
+          question: 'Người Việt còn có tên gọi khác là gì?', 
+          options: ['Hán', 'Mường', 'Kinh', 'Nam'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Hình thức nhà nước đầu tiên của người Việt xuất hiện vào thời kỳ nào?', 
+          options: ['Thiên niên kỉ V TCN', 'Thiên niên kỉ VI TCN', 'Thiên niên kỉ II TCN', 'Thiên niên kỉ I TCN'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Ngôn ngữ chính của dân tộc Kinh là gì?', 
+          options: ['Tiếng Khmer', 'Tiếng Việt', 'Tiếng HMông', 'Tiếng Thái'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Phong tục, tập quán truyền thống nào của dân tộc Kinh vẫn được duy trì trong đời sống hiện đại?', 
+          options: [' Ăn tết Nguyên Đán', ' Múa sạp', 'Lễ cúng thần rừng', 'Lễ ăn chay'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Bố Y', 
+      questionsList: [
+        Question(
+          question: 'Dân tộc Bố Y xuất hiện từ thời kỳ nào?', 
+          options: ['500 năm trước', 'Từ thế kỉ X', 'Từ thế kỉ XII', 'Hơn một thế kỉ trước'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Bố Y sống chủ yếu bằng nghề gì?', 
+          options: ['Làm nương rẫy', 'Trồng cao su', 'Săn bắn', 'Làm nhà'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Loại nhà phổ biến của người Bố Y?', 
+          options: ['Nhà sàn', 'Nhà rông', 'Nhà nền', 'Nhà gạch'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Dân tộc Bố Y chủ yếu sinh sống ở khu vực nào của Việt Nam?', 
+          options: ['Vùng đồng bằng sông Hồng', 'Các tỉnh miền Tây Nam Bộ', 'Đồng bằng sông Cửu Long', 'Các tỉnh miền núi phía Bắc'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Giáy', 
+      questionsList: [
+        Question(
+          question: 'Dân số của người Giáy là bao nhiêu (2019)?', 
+          options: ['100.000 người', '68.000 người', '74.000 người', '24.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Ngày lễ quan trọng nhất của người Giáy?', 
+          options: ['Lễ cầu mưa', 'Lễ xuống đồng', 'Lễ Tết', 'Lễ cưới'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Giáy ở Hà Giang xây nhà gì?', 
+          options: ['Nhà sàn', 'Nhà trệt', 'Nhà rông', 'Nhà gỗ'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Tục "kéo vợ" của người Giáy là gì?', 
+          options: ['Nhà trai sang nhà gái hỏi cưới', 'Nhà gái sang nhà trai hỏi cưới', 'Hai nhà trai gái gặp mặt nhau', 'Nhà gái đồng ý cưới nhà trai nhưng nhà trai không đủ tiền'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Lào', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Lào là bao nhiêu (2019)?', 
+          options: ['17.000 người', '20.000 người', '14.000 người', '53.000 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Nghề chính của người Lào là gì?', 
+          options: ['Dệt may', 'Làm gốm', 'Làm bạc', 'Làm ruộng nước'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Lễ hội Bun huột nặm của người Lào có ý nghĩa gì?', 
+          options: ['Cầu may', 'Gột rửa những điều xui xẻo trong năm cũ', 'Cầu tiền tài, phát đạt', 'Cầu mưa'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Tục lệ cưới hỏi của người Lào như thế nào?', 
+          options: ['Nhà gái hỏi cưới nhà trai', 'Nhà trai đến bắt vợ', 'Nhà gái đến bắt chồng', 'Nhà trai ở rể vài năm rồi mới được đưa vợ về nhà'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Lự', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Lự là bao nhiêu (2019)?', 
+          options: ['10.000 người', '2.000 người', '6.700 người', '10.900 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Lự sinh sống chủ yếu ở đâu?', 
+          options: ['Sơn La', 'Điện Biên', 'Hòa Bình', 'Lai Châu'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Nghề phụ nào là nghề phát triển nhất?', 
+          options: ['Nghề dệt', 'Nghề đan len', 'Nghề làm trang sức', 'Nghề làm gốm'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Đặc điểm riêng trong cưới hỏi của người Lự?', 
+          options: ['Nhà trai phải ở rể 5 năm rồi ra ở riêng', 'Trai gái phải nhờ thầy số xem tuổi trước khi quen nhau', 'Nhà gái ở nhà trai 3 năm rồi ra riêng', 'Trai gái tự do tìm hiểu nhau'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Nùng', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Nùng là bao nhiêu (2019)?', 
+          options: ['200.000 người', '500.000 người', '1.000.000 người', '600.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Nùng sinh sống chủ yếu ở đâu?', 
+          options: ['Nam Bộ', 'Sông Hồng', 'Đông Bắc Bắc Bộ', 'Nam Trung Bộ'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Nùng theo chế độ gia đình nào?', 
+          options: ['Phụ hệ', 'Mẫu hệ', 'Bình đẳng', 'Bất bình đẳng'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Đời sống xã hội của người Nùng chịu ảnh hưởng bởi tín ngưỡng nào?', 
+          options: ['Phật giáo', 'Nho giáo', 'Thiên chúa giáo', 'Hồi giáo'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Sán Chay', 
+      questionsList: [
+        Question(
+          question: 'Dân số của dân tộc Sán Chay là bao nhiêu (2019)?', 
+          options: ['145.000 người', '201.000 người', '234.000 người', '110.000 người'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Nhóm Sán Chỉ nói ngôn ngữ nào?', 
+          options: ['Việt', 'Mường', 'Tày', 'Hán'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Vũ điệu truyền thống của người Sán Chay có tên là gì?', 
+          options: ['Tắc xình', 'Bông lúa', 'Cục tác', 'Hoa lá'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Sán Chay chủ yếu làm nghề gì?', 
+          options: ['Nuôi tằm', 'Dệt vải', 'Làm gốm', 'Làm ruộng, nương rẫy'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Tày', 
+      questionsList: [
+        Question(
+          question: 'Dân số của người Tày tại Việt Nam (2019) là bao nhiêu?', 
+          options: ['Hơn 1,8 triệu người', 'Hơn 2 triệu người', 'Khoảng 1 triệu người', 'Khoảng 1,5 triệu người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Hai nhóm Thu Lao và Pa Dí đã di cư đến Việt Nam từ bao lâu?', 
+          options: ['Hơn hai thế kỷ', 'Hơn một thế kỷ', 'Hơn ba thế kỷ', 'Hơn năm thế kỷ'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Điểm khác biệt dễ thấy nhất trong trang phục của phụ nữ Tày so với các nhóm khác là gì?', 
+          options: ['Áo có nhiều trang trí bằng bạc', 'Áo ngắn màu chàm', 'Màu nâu', ' Áo dài màu chàm, không có hoa văn'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Nhạc cụ chính của người Tày, được coi là linh hồn trong nghệ thuật dân ca dân vũ Tày là gì?', 
+          options: ['Đàn bầu', 'Sáo trúc', 'Đàn tính', 'Đàn nguyệt'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Kiểu nhà phổ biến của người Tày là gì?', 
+          options: ['Nhà đất 3 gian, 2 mái', 'Nhà sàn gỗ 5 gian', 'Nhà tranh 4 gian, 3 mái', 'Nhà gỗ 3 gian, 2 chái'],
+          answer: 0,
+        )
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Thái', 
+      questionsList: [
+        Question(
+          question: 'Nhóm Tay Đón cư trú chủ yếu ở đâu?', 
+          options: ['Miền tây Nghệ An và Thanh Hóa', 'Lai Châu và một số huyện thuộc Sơn La', 'Tây bắc tỉnh Hoà Bình', 'Phía nam tỉnh Sơn La'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Tiếng nói của nhóm Tay Đón có đặc điểm gì khác biệt so với tiếng Thái Đen?', 
+          options: ['Có 5 thanh và nhiều khác biệt về ngữ âm', 'Có 6 thanh và nhiều khác biệt về ngữ âm', 'Có 4 thanh và tương đồng với tiếng Thái Đen', 'Có 7 thanh và nhiều khác biệt về ngữ âm'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Nhóm Tay Khao cư trú ở đâu?', 
+          options: ['Lai Châu và một số huyện thuộc Sơn La', 'Thượng nguồn sông Đà', 'Tây bắc tỉnh Hoà Bình và phía bắc tỉnh Sơn La', 'Miền tây Nghệ An và Thanh Hóa, tây bắc Hoà Bình và phía nam Sơn La'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Kiểu nhà sàn của người Thái Trắng có đặc điểm gì?', 
+          options: ['Nhà sàn có mái hình mai rùa', 'Nhà sàn 4 mái', 'Nhà sàn dài của các gia đình lớn', 'Nhà đất 3 gian, 2 mái'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Điểm khác biệt trong nữ phục của nhóm Tay Khao là gì?', 
+          options: ['Gần với người Thái ở Lào', 'Gần với người Thái Đen', 'Giống với người Kinh', 'Khác hoàn toàn với người Thái Đen và người Thái ở Lào'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Cờ Lao', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Cờ Lao tại Việt Nam vào năm 2019 là bao nhiêu?', 
+          options: ['Hơn 1.000 người', 'Hơn 2.000 người', 'Hơn 3.000 người', 'Hơn 4.000 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Cờ Lao chủ yếu làm nương theo kiểu gì?', 
+          options: ['Thổ canh hốc đá', 'Làm nương rẫy', 'Thổ canh rẫy nương', 'Canh tác trên ruộng bậc thang'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Trong hôn nhân, người Cờ Lao có phong tục gì giống người Hmông?', 
+          options: ['Con cô con cậu lấy nhau', ' “Kéo vợ”', 'Trao đổi của hồi môn', 'Kết hôn sớm'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Cờ Lao làm nghề gì để sản xuất đồ gia dụng bằng gỗ?', 
+          options: ['Nghề mộc', 'Nghề rèn', 'Nghề dệt', 'Nghề đan lát'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Cờ Lao có phong tục gì khi mai táng?', 
+          options: ['Đắp đá rồi phủ đất lên mộ', 'Chôn treo nhau đẻ lên cây', 'Chôn cất trực tiếp dưới đất', 'Đốt thi hài rồi bỏ tro vào hốc đá'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người La Chí', 
+      questionsList: [
+        Question(
+          question: 'Dân số người La Chí tại Việt Nam vào năm 2019 là bao nhiêu?', 
+          options: ['Hơn 10.000 người', 'Hơn 15.000 người', 'Hơn 5.000 người', 'Hơn 20.000 người'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người La Chí sử dụng công cụ nào để gặt lúa nếp?', 
+          options: ['Liềm', 'Hái nhắt', 'Dao', 'Cuốc'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Phương pháp nấu cơm đặc biệt của người La Chí là gì?', 
+          options: ['Nấu cơm trong chảo rồi đồ chín bằng hơi nước', 'Nấu cơm bằng lò nướng', 'Nấu cơm bằng nồi cơm điện', 'Nấu cơm trong nồi gang'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Món ăn được ưa chuộng của người La Chí là gì?', 
+          options: ['Thịt chua', 'Cá nướng', 'Da trâu sấy khô', 'Thịt bò khô'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Tết Khu Cù Tê của người La Chí có ý nghĩa gì?', 
+          options: ['Tưởng nhớ các vị thần', 'Cầu mong sức khỏe và thịnh vượng', 'Mừng mùa màng bội thu', 'Tưởng nhớ tổ tiên và cầu mong cuộc sống ấm no, hạnh phúc'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người La Ha', 
+      questionsList: [
+        Question(
+          question: 'Dân số người La Ha tại Việt Nam vào năm 2019 là bao nhiêu?', 
+          options: ['Hơn 5.000 người', 'Hơn 15.000 người', 'Hơn 7.000 người', 'Hơn 10.100 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Hai nhóm chính của người La Ha là gì?', 
+          options: ['Nhóm Nước (Ủng) và Nhóm Cạn (Phlạo)', 'Nhóm Trắng và Nhóm Đỏ', 'Nhóm Núi và Nhóm Sông', 'Nhóm Lúa và Nhóm Ngô'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người La Ha thường thờ cúng tổ tiên ở đâu trong nhà?', 
+          options: ['Gian ngủ', 'Gian bếp', 'Gian khách', 'Gian cuối'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Phong tục kiêng kỵ nào được người La Ha tuân thủ trong đời sống hằng ngày?', 
+          options: ['Không được tự do đi lại hay chơi đùa ở nơi thờ cúng ma', 'Không được đi vào gian bếp', 'Không được ra khỏi nhà vào buổi tối', 'Không được ngủ trong gian cuối'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Lễ hội đặc trưng của dân tộc La Ha là gì?', 
+          options: ['Lễ hội Lồng Tồng', 'Lễ hội Nàng Hai', 'Lễ hội Pang A', 'Lễ hội Cơm Mới'],
+          answer: 2,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Pu Péo', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Pu Péo tại Việt Nam vào năm 2019 là bao nhiêu?', 
+          options: ['Hơn 500 người', 'Hơn 700 người', 'Hơn 900 người', 'Hơn 1.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Phụ nữ Pu Péo vấn tóc quanh đầu và dùng gì để gài lại?', 
+          options: ['Chiếc lược gỗ', 'Kẹp tóc', 'Cái trâm', 'Dải vải'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Pu Péo thờ cúng tổ tiên mấy đời?', 
+          options: ['Một đời', 'Hai đời', 'Ba đời', 'Bốn đời'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Lễ Patọng của người Pu Péo được tổ chức vào thời gian nào?', 
+          options: ['Từ mồng 10 đến 20 tháng Giêng âm lịch', 'Từ mồng 3 đến 13 tháng Giêng âm lịch', 'Từ mồng 5 đến 15 tháng Giêng âm lịch', 'Từ mồng 1 đến mồng 10 tháng Giêng âm lịch'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Phong tục "cướp giọng gà" của người Pu Péo diễn ra vào thời điểm nào?', 
+          options: ['Ngày mồng 1 Tết', 'Ngày mồng 2 Tết', 'Ngày 30 Tết', 'Thời khắc giao thừa'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Dao', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Dao tại Việt Nam vào năm 2019 là bao nhiêu?', 
+          options: ['891.151 người', '750.299 người', '834.243 người', '1.000.000 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Dao Thanh Y sinh sống tại tỉnh nào?', 
+          options: ['Cao Bằng', 'Tuyên Quang', 'Hà Giang', 'Quảng Ninh'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Hình thức canh tác chính của người Dao Đỏ là gì?', 
+          options: ['Làm ruộng nước', 'Thổ canh hốc đá', 'Du canh', 'Định canh'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Dao tin theo tín ngưỡng nào?', 
+          options: ['Phật giáo và Thiên chúa giáo', 'Tín ngưỡng nguyên thủy và Khổng giáo', 'Đạo giáo', 'Cả 2 và 3'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Nghi lễ quan trọng mà tất cả đàn ông Dao phải qua khi đến tuổi trưởng thành là gì?', 
+          options: ['Lễ cưới', 'Lễ trưởng thành', 'Lễ cấp sắc', 'Lễ hội mùa xuân'],
+          answer: 2,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Hmông', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Hmông tại Việt Nam vào năm 2019 là bao nhiêu?', 
+          options: [' 1.200.000 người', ' 1.000.000 người', '1.393.547 người', '1.500.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Hmông ở Việt Nam được chia thành mấy nhóm địa phương dựa trên màu sắc đặc điểm trang phục và ngữ âm?', 
+          options: ['3 nhóm', '4 nhóm', '5 nhóm', '6 nhóm'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Nguồn sống chính của người Hmông là gì?', 
+          options: ['Làm nương định canh hoặc nương du canh trồng ngô, lúa, lúa mạch', 'Chăn nuôi trâu bò', 'Đánh bắt cá', 'Cả 3 đáp án trên'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Phụ nữ Hmông Hoa có đặc điểm trang phục như thế nào?', 
+          options: ['Váy màu trắng, áo xẻ ngực, thêu hoa văn ở cánh tay, yếm sau', 'Váy bằng vải chàm, in hoa văn bằng sáp ong, áo xẻ ngực', 'Váy ống, cuốn tóc lên đỉnh đầu, cài bằng lược móng ngựa, đội khăn ra ngoài', 'Váy màu chàm có thêu hoặc in hoa văn bằng sáp ong, áo xẻ nách, trên vai và ngực đắp vải màu và thêu'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Hmông tổ chức Tết năm mới truyền thống vào thời gian nào?', 
+          options: ['Đầu tháng 11 âm lịch', 'Đầu tháng 12 âm lịch', 'Cuối tháng 12 âm lịch', 'Đầu tháng 1 dương lịch'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Pà Thẻn', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Pà Thẻn tại Việt Nam vào năm 2019 là bao nhiêu?', 
+          options: ['7.248 người', '8.000 người', '8.248 người', '9.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Pà Thẻn cư trú chủ yếu tại các huyện nào?', 
+          options: ['Bắc Quang, Quang Bình (Hà Giang); Mường Khương (Lào Cai)', 'Bắc Quang, Quang Bình (Hà Giang); Chiêm Hóa, Yên Sơn, Lâm Bình (Tuyên Quang)', 'Đồng Văn, Mèo Vạc (Hà Giang); Văn Bàn (Lào Cai)', 'Bảo Lạc (Cao Bằng); Quảng Uyên (Cao Bằng)'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Pà Thẻn tin vào sự tồn tại của các siêu linh, vạn vật có linh hồn. Ma quỷ và thần thánh của họ gồm hai loại nào?', 
+          options: ['Lành và dữ', 'Tốt và xấu', 'Hiền và ác', 'Thiện và ác'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Nghề dệt thổ cẩm của người Pà Thẻn có nét đặc trưng gì?', 
+          options: ['Dệt bằng máy công nghiệp', 'Sử dụng sợi tơ tằm làm nguyên liệu chính', 'Màu xanh là màu sắc chính của bộ trang phục nữ', 'Hoàn toàn bằng phương pháp thủ công truyền thống'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Pà Thẻn chủ yếu làm gì để sinh sống?', 
+          options: ['Săn bắt và hái lượm', 'Làm nương rẫy và chăn nuôi gia súc, gia cầm', 'Buôn bán', 'Làm nghề thủ công'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Hoa', 
+      questionsList: [
+        Question(
+          question: 'Người Hoa ở Việt Nam có dân số bao nhiêu vào năm 2019?', 
+          options: ['Hơn 749.000 người', '700.000 người', 'Hơn 700.000 người', '749.000 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Hoa tại Việt Nam chủ yếu sống ở đâu?', 
+          options: ['Hà Nội', 'Đà Nẵng', 'Thành phố Hồ Chí Minh', 'Hải Phòng'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Hoa ở nông thôn chủ yếu làm gì để sinh sống?', 
+          options: ['Dịch vụ', 'Nông nghiệp', 'Buôn bán', 'Công nghiệp'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Nghề làm giày thêu của người Hoa Xạ Phang được công nhận là di sản văn hóa phi vật thể quốc gia vào năm nào?', 
+          options: ['2019', '2022', '2020', '2021'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Trong nhà của người Hoa, thường có các vật trang trí gì để cầu phúc, thọ, tài, lộc?', 
+          options: ['Tranh vẽ phong cảnh', 'Câu đối, liễn, giấy hồng điều viết chữ Hán bằng mực Nho', 'Đồ gốm sứ', 'Đồ đồng'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Ngái', 
+      questionsList: [
+        Question(
+          question: 'Tại Việt Nam, dân tộc Ngái có mặt ở các tỉnh nào sau đây?', 
+          options: ['Bắc Ninh', 'Bình Dương', 'Bắc Kạn', 'Quảng Trị'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Phần lớn người Ngái sống chủ yếu trong các xóm nhỏ trên đất nào?', 
+          options: ['Đất canh tác lúa nước', 'Đất ven biển', 'Đất đỏ', 'Đất liền'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Nghề nổi tiếng của người Ngái ở thành phố nào sau đây?', 
+          options: ['Thành phố Hồ Chí Minh', 'Hải Phòng', 'Huế', 'Hà Nội'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Theo tập tục, sau bao nhiêu ngày kể từ khi sinh con, sản phụ mới được về nhà mẹ đẻ?', 
+          options: ['30 ngày', '90 ngày', '40 ngày', '120 ngày'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Lễ tết nào sau đây không phải là một trong các ngày lễ truyền thống của người Ngái?', 
+          options: ['Hàn thực (ngày 3 tháng 3 âl)', 'Tết Dương lịch (1/1)', 'Ðoan ngọ (5/5)', 'Vu lan (15/7)'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Sán Dìu', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Sán Dìu tại Việt Nam vào năm 2019 là bao nhiêu?', 
+          options: ['Hơn 500.000 người', 'Hơn 200.000 người', 'Hơn 146.800 người', 'Hơn 234.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Loại xe vận chuyển độc đáo của người Sán Dìu là gì?', 
+          options: ['Xe quệt', 'Xe hơi', 'Xe máy', 'Xe đạp'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Phương tiện nào được sử dụng để kéo lết xe quệt của người Sán Dìu?', 
+          options: ['Mô tô', 'Xe ngựa', 'Xe ô tô', 'Con trâu'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Theo truyền thống, việc thờ cúng tổ tiên của người Sán Dìu bao gồm thờ cúng những thần nào sau đây?', 
+          options: ['Vua bếp, bà Mụ', 'Thần Nông, Táo quân', 'Phật, Đức Chúa', 'Đại diện cho tất cả các thần'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Hoạt động âm nhạc và múa của người Sán Dìu thường được tổ chức trong những dịp nào sau đây?', 
+          options: ['Đám cưới, ngày tết, hội đầu xuân', 'Lễ thượng điền, lễ hạ điền', 'Lễ Vu Lan, lễ cơm mới', 'Ngày mừng sinh nhật và mừng thọ người già'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Cống', 
+      questionsList: [
+        Question(
+          question: 'Ngôn ngữ của người Cống thuộc nhóm nào', 
+          options: ['Tiếng Thái', 'Tiếng Tạng', 'Tiếng Miến', 'Tiếng Hán'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Cống chủ yếu làm nghề gì để kiếm sống?', 
+          options: ['Làm nương', 'Đánh cá', 'Săn bắn', 'Trồng bông'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Trong trang phục truyền thống của người Cống, nam giới thường mặc loại áo nào?', 
+          options: ['Áo ngắn', 'Áo dài', 'Áo cài khuy bên nách', 'Áo liền vai'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Hoạt động nào sau đây không phải là một phần của đời sống tâm linh của người Cống?', 
+          options: ['Thờ cúng cha mẹ, ông bà', 'Thực hành các nghi lễ nông nghiệp', 'Cúng bố mẹ vợ', 'Thành nữ Cống vấn tóc quanh đầu'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Thời điểm nào người Cống thường tổ chức lễ cúng bố mẹ vợ?', 
+          options: ['Lễ Vu Lan', 'Đoan ngọ', 'Tết năm mới', 'Hàn thực'],
+          answer: 2,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Hà Nhì', 
+      questionsList: [
+        Question(
+          question: 'Dân tộc Hà Nhì ở Việt Nam gồm những nhóm nào sau đây?', 
+          options: ['Hà Nhì Trắng, Hà Nhì Đỏ, Hà Nhì Vàng, Hà Nhì Xanh', 'Hà Nhì Cổ Chồ, Hà Nhì Đỏ, Hà Nhì Đen, Hà Nhì Vàng', 'Hà Nhì Cồ Chồ, Hà Nhì La Mí, Hà Nhì Xanh, Hà Nhì Đen', 'Hà Nhì Cồ Chồ, Hà Nhì La Mí, Hà Nhì Đen'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Nghề nghiệp chính của người Hà Nhì là gì?', 
+          options: ['Đánh cá', 'Làm ruộng', 'Trồng bông', 'Săn bắn'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Trong trang phục truyền thống của người Hà Nhì, phụ nữ ở Lào Cai thường có đặc điểm gì?', 
+          options: ['Không răng đen', 'Trang trí sặc sỡ', 'Không có trang trí', 'Màu sắc tương phản'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Ai thường đảm nhiệm việc thờ cúng tổ tiên trong gia đình người Hà Nhì?', 
+          options: ['Con gái lớn', 'Mẹ', 'Con trai cả', 'Cả gia đình'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Lễ nào dưới đây không phải là một phần của nghi lễ hàng năm của người Hà Nhì?', 
+          options: ['Lễ quây quần nghe người già kể chuyện', 'Lễ cúng thần đất và thần trông coi bản', 'Lễ thăm mộ tổ tiên', 'Lễ Nguyên tiêu'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người La Hủ', 
+      questionsList: [
+        Question(
+          question: 'Người La Hủ trước đây thường làm nhà ở đâu?', 
+          options: ['Trên biển', 'Trên cánh đồng', 'Trên nương, trên núi cao', 'Trong rừng'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Tổng dân số người La Hủ ở Việt Nam vào năm 2019 là bao nhiêu?', 
+          options: ['11.213 người', '12.113 người', '24.345 người', '34.423 người'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Điều gì làm nổi bật về khẩu phần dinh dưỡng của người La Hủ?', 
+          options: ['Ăn chủ yếu các loại thịt', 'Ăn chủ yếu các loại hải sản', 'Tiêu thụ nhiều đậu và các loại hạt', 'Tiêu thụ nhiều rau củ quả và các loại củ'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Tôn giáo và tín ngưỡng nào phổ biến nhất trong cộng đồng người La Hủ?', 
+          options: ['Tín ngưỡng dân gian và thờ cúng tổ tiên', 'Phật giáo', 'Công giáo', 'Đạo Hòa Hảo'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Tục hút thuốc và uống rượu thường diễn ra trong các dịp nào?', 
+          options: ['Ngày thường', 'Các dịp lễ, tết, hội hè, đám cưới, mừng nhà mới', 'Cuối tuần', 'Cả 1 và 2'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Lô Lô', 
+      questionsList: [
+        Question(
+          question: 'Tính đến năm 2009, dân số của người Lô Lô ở Việt Nam là bao nhiêu?', 
+          options: ['Hơn 22.000 người', 'Khoảng 12.000 người', 'Hơn 4.500 người', 'Hơn 30.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Tiếng nói của người Lô Lô thuộc nhóm ngôn ngữ nào?', 
+          options: ['Ngữ hệ Kinh – Mường', 'Ngữ hệ Hán – Tạng', 'Ngữ hệ Việt – Mường', 'Ngữ hệ Môn – Khmer'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Nghề chính của người Lô Lô trước đây là gì?', 
+          options: ['Làm ruộng và canh tác đồng bằng', 'Làm thủ công mỹ nghệ', 'Chăn nuôi và nghề đánh cá', 'Thợ rèn và làm gốm sứ'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Trong truyền thống người Lô Lô, trống đồng có vai trò gì?', 
+          options: ['Dùng để giao tiếp trong làng', 'Dùng để cầu mưa và bảo vệ mùa màng', 'Dùng để điều khiển động vật', 'Dùng trong các lễ cưới và tang lễ'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Trong phục trang truyền thống, phụ nữ Lô Lô thường mặc loại áo nào?', 
+          options: ['Áo ngắn mặc kiểu chui đầu', 'Áo dài đến đầu gối', 'Áo ngắn cài khuy đằng trước', 'Áo dài dài tay và mặc kiểu chui đầu'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Phù Lá', 
+      questionsList: [
+        Question(
+          question: 'Dân tộc Phù Lá ở Việt Nam có bao nhiêu người (tính đến năm 2009)?', 
+          options: ['Khoảng 5.000 người', 'Khoảng 10.000 người', 'Khoảng 15.000 người', 'Khoảng 11.000 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Nơi cư trú của hai nhóm Phù Lá và Xá Phó ở Việt Nam như thế nào?', 
+          options: ['Cả hai nhóm đều cư trú ở tả ngạn sông Hồng', 'Cả hai nhóm đều cư trú ở hữu ngạn sông Hồng', 'Nhóm Phù Lá cư trú ở tả ngạn sông Hồng, nhóm Xá Phó cư trú ở hữu ngạn sông Hồng', 'Nhóm Phù Lá cư trú ở miền núi phía Bắc, nhóm Xá Phó cư trú ở miền Trung Việt Nam'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Ngôn ngữ của dân tộc Phù Lá thuộc nhóm ngôn ngữ nào?', 
+          options: ['Nhóm ngôn ngữ Tạng-Miến', 'Nhóm ngôn ngữ Nam Á', 'Nhóm ngôn ngữ Tai-Kadai', 'Nhóm ngôn ngữ Môn-Khmer'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Phụ nữ nhóm Phù Lá mặc trang phục như thế nào?', 
+          options: ['Váy dài, xòe rộng, có 4 mảng hoa văn phân bố từ trên xuống', 'Quần "chân què - lá tọa"; áo ngắn có chiết eo, cài cúc ở bên nách phải, thân sau và ống tay ghép vải màu để trang trí; đeo tạp dề hình lưỡi rìu ở trước ngực', 'Cả hai đáp án trên đều đúng', 'Cả hai đáp án trên đều sai'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Loại nương nào phổ biến ở vùng người Phù Lá trước thập niên 60 của thế kỷ 20?', 
+          options: ['Nương du canh', 'Nương dọn dẹp', 'Nương rẫy', 'Nương cố định'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Si La', 
+      questionsList: [
+        Question(
+          question: 'Dân số dân tộc Si La ở Việt Nam hiện nay (tính đến năm 2009) là bao nhiêu?', 
+          options: ['Dưới 500 người', 'Dưới 600 người', 'Dưới 800 người', 'Hơn 700 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Si La thuộc nhóm ngôn ngữ nào?', 
+          options: ['Nhóm ngôn ngữ Nam Á', 'Nhóm ngôn ngữ Tạng-Miến', 'Nhóm ngôn ngữ Tai-Kadai', 'Nhóm ngôn ngữ Môn-Khmer'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Hoạt động kinh tế chủ đạo của người Si La là gì?', 
+          options: ['Canh tác nương rẫy, hái lượm và săn bắt', 'Chăn nuôi gia súc, trồng lúa nước', 'Thương mại, dịch vụ', 'Công nghiệp, khai khoáng'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Nhà ở truyền thống của người Si La như thế nào?', 
+          options: ['Nhà sàn, bếp lửa bố trí ở góc nhà', 'Hang động, bếp lửa bố trí ngoài trời', 'Nhà trệt, bếp lửa bố trí giữa nhà', 'Lều trại, bếp lửa bố trí trong lều'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Nữ phục Si La có đặc điểm gì nổi bật?', 
+          options: ['Trang trí cầu kỳ, trên vạt áo ngực gắn đầy những đồng xu bạc, xu nhôm', 'Màu sắc đơn giản, trang trí ít cầu kỳ', 'Mặc váy dài, áo ngắn, quấn khăn đầu', 'Mặc quần áo do các dân tộc khác may'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Mảng', 
+      questionsList: [
+        Question(
+          question: 'Dân số dân tộc Mảng ở Việt Nam hiện nay (tính đến năm 2009) là bao nhiêu?', 
+          options: ['Dưới 2.000 người', 'Dưới 3.000 người', '3.700 người', 'Trên 4.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Nét độc đáo của y phục truyền thống của phụ nữ Mảng là gì?', 
+          options: ['Mặc váy dài, áo ngắn, quấn khăn đầu', 'Trang trí cầu kỳ, trên vạt áo ngực gắn đầy những đồng xu bạc, xu nhôm', 'Mặc quần áo do các dân tộc khác may', 'Tấm choàng may bằng vải màu trắng, dùng quấn quanh thân'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Làn điệu dân ca nào của người Mảng được nhiều người biết đến', 
+          options: ['Làn điệu hát then', 'Làn điệu xoỏng', 'Làn điệu sli', 'Làn điệu hát ru'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Mảng có những nghi lễ nào liên quan đến nông nghiệp', 
+          options: ['Lễ tra hạt trên nương, lễ cúng sau mùa thu hoạch, cúng hồn lúa, mẹ lúa', 'Lễ cúng giỗ tổ tiên', 'Lễ hội hoa tam giác mạch', 'Lễ hội đua thuyền'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Mảng lưu giữ truyền thuyết về vùng đất tổ của mình ở đâu?', 
+          options: ['Mường Thanh, Điện Biên', 'Muăng Buăng, xã Nậm Ban, huyện Sìn Hồ (nay thuộc huyện Nậm Nhùn)', 'Tả Van, Lai Châu', 'Sa Pa, Lào Cai'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Ơđu', 
+      questionsList: [
+        Question(
+          question: 'Theo thống kê quốc gia năm 2009, dân tộc Ơ Đu có bao nhiêu người?', 
+          options: ['Dưới 300 người', 'Dưới 400 người', '376 người', 'Trên 450 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Ơ Đu cư trú chủ yếu ở đâu?', 
+          options: ['Miền núi phía Bắc Việt Nam', 'Miền Trung Việt Nam', 'Miền Nam Việt Nam', 'Miền Nam Việt Nam'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Ơ Đu ở nhà như thế nào?', 
+          options: ['Nhà sàn, sống theo gia đình nhỏ', 'Nhà trệt, sống theo gia đình', 'Hang động, sống theo bộ lạc', 'Lều trại, sống theo nhóm'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Phong tục hôn nhân của người Ơđu là gì?', 
+          options: ['Vợ về nhà chồng', 'Chồng về nhà vợ', 'Cả hai cùng về nhà mới', 'Chồng về nhà vợ sau một thời gian, sau đó đưa vợ con về nhà mình'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Ơ Đu tin vào điều gì sau khi chết?', 
+          options: ['Hồn tan biến vào hư vô', 'Hồn biến thành ma, chia thành hồn thân thể và hồn gốc', 'Hồn được siêu thoát lên thiên đường', 'Hồn trở lại kiếp người khác'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Kháng', 
+      questionsList: [
+        Question(
+          question: 'Dân số dân tộc Kháng ở Việt Nam hiện nay (tính đến năm 2009) là bao nhiêu?', 
+          options: ['Hơn 13.800 người', 'Dưới 10.000 người', 'Dưới 12.000 người', 'Dưới 15.000 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Kháng nổi tiếng với khả năng nào?', 
+          options: ['Giỏi cưỡi ngựa, bắn cung', 'Giỏi trồng lúa nước', 'Giỏi chăn nuôi gia súc, gia cầm', 'Giỏi đan lát, làm thuyền độc mộc, thuyền đuôi én'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Tục tu mui, uống nước cay qua mũi của người Kháng đã từng được biết đến như thế nào?', 
+          options: ['Là một tục độc đáo, thu hút sự chú ý của du khách', 'Là một tục đặc trưng, thể hiện bản sắc văn hóa độc đáo', 'Là một tục chỉ còn tồn tại trong ký ức', 'Là một tục lạc hậu, cần được xóa bỏ'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Theo phong tục người Kháng, nghi thức nào là quan trọng nhất trong lễ cưới?', 
+          options: ['Lễ ăn hỏi', 'Lễ dạm hỏi', 'Lễ đón dâu', 'Lễ ra mắt hai họ'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Tại mộ người Kháng, thường có gì được chôn cùng?', 
+          options: ['Một con trâu hoặc bò', 'Một bộ quần áo mới', 'Một cái gùi', 'Một cái cột cao với hình con chim bằng gỗ và áo người chết thường mặc'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Khơmú', 
+      questionsList: [
+        Question(
+          question: 'Dân số dân tộc Khơmú ở Việt Nam hiện nay (tính đến năm 2009) là bao nhiêu?', 
+          options: ['Dưới 60.000 người', 'Hơn 72.900 người', 'Dưới 70.000 người', 'Dưới 80.000 người'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Nghề thủ công nào được phát triển phổ biến ở người Khơmú?', 
+          options: ['Nghề đan lát', 'Nghề rèn', 'Nghề thêu thùa', 'Nghề gốm'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Phụ nữ Khơmú có truyền thống dệt vải bằng loại dụng cụ gì?', 
+          options: ['Dụng cụ dệt khung', 'Dụng cụ dệt thổ cẩm', 'Dụng cụ dệt buộc lưng', 'Dụng cụ dệt bằng tay'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Vai trò của anh/em trai được coi trọng như thế nào trong gia đình người Khơmú?', 
+          options: ['Quyết định mọi việc trong gia đình', 'Phụ giúp cha mẹ việc nhà', 'Giúp đỡ chị/em gái trong công việc', 'Được coi trọng đối với nhiều công việc hệ trọng của gia đình chị/em gái, nhất là việc dựng vợ gả chồng cho các cháu'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Họ của người Khơmú có đặc điểm gì?', 
+          options: ['Mang tên một loài thú, chim, cây cỏ nào đó', 'Mang tên một con số', 'Mang tên một vị anh hùng', 'Mang tên một địa danh'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Xinhmun', 
+      questionsList: [
+        Question(
+          question: 'Theo thống kê dân số năm 2009, dân số dân tộc Xinh Mun ở Việt Nam là bao nhiêu?', 
+          options: ['Gần 23.300 người', 'Dưới 20.000 người', 'Dưới 22.000 người', 'Trên 25.000 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Xinh Mun cư trú tập trung ở đâu?', 
+          options: ['Tỉnh Sơn La và tỉnh Điện Biên', 'Miền núi phía Bắc Việt Nam', 'Miền Trung Việt Nam', 'Miền Nam Việt Nam'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Đặc điểm kiến trúc nhà sàn truyền thống của người Xinh Mun là gì?', 
+          options: ['Mái cong hình thuyền', 'Mái lợp tranh, vách bằng gỗ', 'Nhà sàn có nhiều tầng', 'Mái khum hình mai rùa'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Xinh Mun có tập quán gì đặc trưng?', 
+          options: ['Ăn trầu, nhuộm răng trắng', 'Ăn trầu, nhuộm răng đen', 'Ăn trầu, nhuộm răng vàng', 'Ăn trầu, không nhuộm răng'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Xinh Mun sử dụng phương pháp gì để ghi nhớ việc vay mượn?', 
+          options: ['Viết sổ sách', 'Nhớ miệng', 'Dùng các ký hiệu khắc trên thanh tre', 'Sử dụng tiền tệ'],
+          answer: 2,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Rơmăm', 
+      questionsList: [
+        Question(
+          question: 'Dân số dân tộc Rơmăm ở Việt Nam hiện nay (tính đến năm 2009) là bao nhiêu?', 
+          options: ['322 người', '432 người', '436 người', '842 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Cách thức canh tác của người Rơmăm có gì đặc biệt?', 
+          options: ['Phát, đốt, chọc lỗ tra hạt', 'Canh tác lúa nước', 'Canh tác theo mô hình trang trại', 'Sử dụng máy móc hiện đại'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Trang phục truyền thống của người Rơmăm có đặc điểm gì?', 
+          options: ['Sử dụng nhiều đồ trang sức bằng vàng, bạc', 'Mặc quần áo nhiều màu sắc', 'Mặc trang phục theo phong cách phương Tây', 'Y phục thường bằng vải mộc (không nhuộm)'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Cấu trúc nhà ở truyền thống của người Rơmăm như thế nào?', 
+          options: ['Nhà sàn dài, nhiều gia đình chung sống', 'Nhà sàn đơn lẻ, mỗi gia đình một nhà', 'Nhà đất, mái tranh, vách bằng gỗ', 'Nhà chung cư cao tầng'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Theo quan niệm của người Rơmăm, "hồn" có ở đâu?', 
+          options: ['Chỉ có ở con người', 'Có ở tất cả mọi vật', 'Có ở con người và một số loài động vật', 'Không tồn tại "hồn"'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Brâu', 
+      questionsList: [
+        Question(
+          question: 'Dân số dân tộc Brâu ở Việt Nam hiện nay (tính đến năm 2009) là bao nhiêu?', 
+          options: ['654 người', '312 người', '644 người', '397 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Nét đặc trưng trong kiến trúc nhà ở truyền thống của người Brâu là gì?', 
+          options: ['Nhà sàn có nhiều tầng', 'Nhà sàn có mái cong hình thuyền', 'Nhà sàn bố trí theo hình vòng tròn, quay đầu hồi vào khu vực trung tâm', 'Nhà sàn có nhiều gian, mỗi gian có một chức năng riêng'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Lễ cúng nào được xem là quan trọng nhất trong đời sống tâm linh của người Brâu?', 
+          options: ['Lễ cúng lúa mới', 'Lễ chọn đất', 'Lễ phát rẫy', 'Lễ đốt rẫy'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Trong văn hóa người Brâu, loại nhạc cụ nào được coi trọng nhất?', 
+          options: ['Khèn', 'Cồng chiêng', 'Đàn bầu', 'Trống'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Mỗi bộ chiêng tha của người Brâu có bao nhiêu chiếc?', 
+          options: ['1 chiếc', '2 chiếc', '3 chiếc', '4 chiếc'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Bru-Vân Kiều', 
+      questionsList: [
+        Question(
+          question: 'Theo số liệu điều tra dân số năm 2019, tổng dân số người Bru - Vân Kiều là bao nhiêu?', 
+          options: ['Dưới 50.000 người', 'Dưới 70.000 người', 'Dưới 90.000 người', 'Dưới 100.000 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Bru - Vân Kiều tập trung sinh sống chủ yếu ở đâu?', 
+          options: ['Tây Nguyên', 'Tây Bắc', 'Duyên hải Nam Trung Bộ', 'Đồng bằng sông Cửu Long'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Nhà truyền thống của người Bru - Vân Kiều có đặc điểm gì?', 
+          options: ['Là nhà sàn lớn, nhiều gian', 'Là nhà sàn bằng gỗ, mái lợp tranh', 'Là nhà sàn nhỏ, chia làm 2 phần rõ rệt', 'Là nhà sàn được xây dựng trên nền đất'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Bru - Vân Kiều thường ăn món gì?', 
+          options: ['Thích ăn các món xào', 'Thích ăn các món nướngThích ăn các món luộc', 'Thích ăn các món luộc', 'Thích ăn các món kho'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Trong đời người của mỗi người Bru - Vân Kiều có những nghi lễ cúng nào?', 
+          options: ['Cả 3 đáp án còn lại', 'Khi ra đời', 'Lúc đau ốm', 'Khi qua đời'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Khơme', 
+      questionsList: [
+        Question(
+          question: 'Dân số dân tộc Khmer ở Việt Nam hiện nay (tính đến năm 2019) là bao nhiêu?', 
+          options: ['Hơn 1.319.000 người', 'Dưới 1 triệu người', 'Dưới 1,2 triệu người', 'Trên 1,5 triệu người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Quan hệ dòng họ và hệ thống thân tộc Khmer có đặc điểm gì?', 
+          options: ['Mẫu hệ chiếm ưu thế', 'Tính phụ hệ ngày càng biểu hiện rõ nét, nhưng tàn dư mẫu hệ vẫn còn', 'Bình đẳng giữa nam và nữ', 'Không có quan hệ dòng họ và hệ thống thân tộc'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Văn hóa Khmer thể hiện sự kết tinh của những yếu tố nào?', 
+          options: ['Phật giáo Tiểu thừa', 'Bàlamôn giáo', 'Tín ngưỡng dân gian', 'Cả 3 yếu tố trên'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Di sản văn hóa đặc sắc của người Khmer được ghi chép trên gì?', 
+          options: ['Giấy', 'Vải', 'Lá buông (xatra)', 'Đá'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Trong hệ thống lễ hội của người Khmer, lễ hội nào được tổ chức vào dịp Tết đón năm mới?', 
+          options: ['Lễ hội Chol Chnam Thmay', 'Lễ hội Đua ghe ngo', 'Lễ hội Ok-ang Bok', 'Cả 3 lễ hội trên'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Cơtu', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Cơtu ở Việt Nam năm 2009 là bao nhiêu?', 
+          options: ['Dưới 30.000 người', 'Dưới 40.000 người', 'Dưới 50.000 người', 'Hơn 61.500 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Cơtu chủ yếu sinh sống ở đâu?', 
+          options: ['Miền núi phía Bắc Việt Nam', 'Miền Trung Việt Nam', 'Miền núi Quảng Nam và Thừa Thiên - Huế', 'Miền Nam Việt Nam'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Cơtu sử dụng loại hình canh tác nào?', 
+          options: ['Canh tác rẫy theo lối chặt phát cây cối rồi đốt để khai hoang đất', 'Canh tác lúa nước', 'Canh tác rẫy', 'Vườn cây ăn trái'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Trang phục truyền thống của người Cơtu có đặc điểm gì?', 
+          options: ['Nam đóng khố, quấn chân bằng xà cạp; nữ mặc váy dài, áo xẻ ngực', 'Nam đóng khố, ở trần; nữ quấn váy, mặc áo chui đầu và không có ống tay', 'Nam mặc quần, áo cộc tay; nữ mặc váy liền, áo dài tay', 'Nam mặc áo ba lỗ, quần dài; nữ mặc váy ngắn, áo hai dây'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Lễ cúng nào được xem là lớn nhất của người Cơ tu?', 
+          options: ['Lễ cúng tổ tiên', 'Lễ cúng thần lúa', 'Lễ cúng thần bếp', 'Lễ hiến sinh trâu'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Gié-Triêng', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Gié - Triêng ở Việt Nam hiện nay (tính đến năm 2009) là bao nhiêu?', 
+          options: ['Dưới 30.000 người', 'Dưới 40.000 người', 'Dưới 50.000 người', 'Gần 51.000 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Gié - Triêng chủ yếu sinh sống ở đâu?', 
+          options: ['Miền núi phía Bắc Việt Nam', 'Tây Nguyên', 'Miền Nam Việt Nam', 'Kon Tum và Quảng Nam'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Nghề truyền thống nào của người Gié - Triêng nổi tiếng?', 
+          options: ['Cả 3 đáp án', 'Dệt vải', 'Làm gốm', 'Đan lát'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Tập tục "song hệ" ở người Gié - Triêng thể hiện như thế nào?', 
+          options: ['Con trai mang họ của bố, con gái mang họ của mẹ', 'Con trai mang họ của mẹ, con gái mang họ của bố', 'Cả con trai và con gái đều mang họ của bố', 'Cả con trai và con gái đều mang họ của mẹ'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Lễ cúng nào được xem là quan trọng nhất của người Gié - Triêng?', 
+          options: ['Lễ cúng tổ tiên', 'Lễ cúng thần sấm sét', 'Lễ cúng thần mưa', 'Lễ cúng thần lúa'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Ba Na', 
+      questionsList: [
+        Question(
+          question: 'Theo số liệu điều tra năm 2019, tổng dân số người Ba Na là bao nhiêu?', 
+          options: ['Dưới 100.000 người', 'Dưới 200.000 người', '286.910 người', 'Dưới 300.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Ba Na sinh sống ở đâu?', 
+          options: ['Trải rộng trên các tỉnh Gia Lai, Kon Tum, Bình Định, Phú Yên và Khánh Hòa', 'Chỉ ở tỉnh Gia Lai', 'Chỉ ở tỉnh Kon Tum', 'Chỉ ở tỉnh Bình Định'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Người Ba Na sống theo hình thức nào?', 
+          options: ['Sống tập trung thành bản', 'Sống tập trung thành làng', 'Sống quần cư thành Làng, gọi là plei', 'Sống phân tán từng gia đình'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Trong hệ thống tín ngưỡng của người Ba Na, ai là cặp đôi thần linh tối cao?', 
+          options: ['Vua Cha và Mẫu Đất', 'Bok Kei Dei và Yă Kuh Keh', 'Ngọc Hoàng và Nam Tào Bắc Đẩu', 'Brahma và Vishnu'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Ba Na còn thờ những vị thần nào?', 
+          options: ['Thần Rừng, thần Đất, thần Đá, thần Núi', 'Thần Mưa, thần Gió, thần Sấm, thần Chớp', 'Thần Biển, thần Tình Yêu, thần Hạnh Phúc, thần Chiến Tranh', 'Cả 1 và 2'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Tàôi', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Tàôi ở Việt Nam ước tính bao nhiêu?', 
+          options: ['Khoảng 20.000 người', 'Khoảng 30.000 người', 'Khoảng 40.000 người', 'Khoảng 50.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Vai trò quan trọng của thương mại bên ngoài đối với nền kinh tế Tàôi là gì?', 
+          options: ['Cung cấp các hàng hóa và dịch vụ thiết yếu', 'Tạo điều kiện trao đổi văn hóa với các nhóm khác', 'Góp phần phát triển kinh tế chung của khu vực', 'Tất cả những nơi trên'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Màu sắc chính được sử dụng trong trang phục truyền thống Tàôi là gì?', 
+          options: ['Chàm và đỏ', 'Đỏ và đen', 'Xanh lam và xanh lá cây', 'Vàng và cam'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Ý nghĩa của "thần lúa" (yang sro) trong tín ngưỡng của người Tàôi là gì?', 
+          options: ['Là người sáng tạo và bảo vệ cây lúa', 'Liên quan đến sự sung túc và thịnh vượng', 'Được cầu cúng thông qua các lễ vật và nghi lễ', 'Tất cả những nơi trên'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Loại nhà ở truyền thống của người Tàôi là gì?', 
+          options: ['Nhà rông', 'Nhà sàn dài truyền thống có mái uốn khum ở hai đầu hồi', 'Hang động', 'Lều trại'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Mạ', 
+      questionsList: [
+        Question(
+          question: 'Theo số liệu Điều tra 53 Dân tộc thiểu số 01/04/2019, dân tộc Mạ có bao nhiêu người?', 
+          options: ['Khoảng 20.000 người', 'Khoảng 30.000 người', 'Khoảng 40.000 người', 'Khoảng 50.322 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Hệ thống tín ngưỡng truyền thống của người Mạ là gì?', 
+          options: ['Nhất thần giáo', 'Tam thần giáo', 'Phật giáo', 'Đa thần giáo'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Ý nghĩa của lễ đâm trâu đối với người Mạ là gì?', 
+          options: ['Để bày tỏ lòng biết ơn cho một mùa màng bội thu và cầu mong cho mùa màng năm sau được tốt tươi', 'Để đánh dấu tuổi trưởng thành cho thanh niên nam', 'Để cầu xin thần linh cho một mùa màng bội thu', 'Để tổ chức đám cưới'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Hoạt động nào đã thay thế săn bắt và hái lượm trở thành nguồn sống của người Mạ?', 
+          options: ['Lâm nghiệp', 'Chăn nuôi, đặc biệt là nuôi cá, gia súc và gia cầm thương phẩm', 'Thủy sản', 'Khai thác khoáng sản'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Mạ nổi tiếng với nghề thủ công nào?', 
+          options: ['Đan lát', 'Làm gốm', 'Trồng bông và dệt vải', 'Nghề rèn'],
+          answer: 2,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Co', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Co năm 2019?', 
+          options: ['Gần 24.000 người', 'Gần 34.000 người', 'Gần 44.000 người', 'Gần 54.000 người'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Đặc sản nào được nhắc đến là nổi tiếng và có vai trò quan trọng trong đời sống của người Co?', 
+          options: ['Cá kho tộ', 'Nem chua', 'Quế Quảng', 'Bún chả cá'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Công cụ nào không phải là công cụ nông nghiệp truyền thống của người Co?', 
+          options: ['Súng', 'Dao', 'Rìu', 'Gùi'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Nghi lễ nào được coi trọng nhất trong các nghi lễ cúng bái của người Co?', 
+          options: ['Lễ hội mùa mới', 'Lễ cúng đất đai', 'Lễ hội lúa mới', 'Hiến sinh trâu của làng'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Âm nhạc truyền thống nào rất quan trọng trong văn hoá của người Co?', 
+          options: ['Kèn', 'Đàn bầu', 'Cồng chiêng', 'Piano'],
+          answer: 2,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Chơro', 
+      questionsList: [
+        Question(
+          question: 'Dân tộc Chơro có gần bao nhiêu người vào năm 2009?', 
+          options: ['30.000 người', '35.000 người', '27.000 người', '25.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Hoạt động đan lát nào phổ biến trong các gia đình người Chơro?', 
+          options: ['Đan lát gùi các loại', 'Đan vải', 'Đan mây', 'Đan rổ'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Thay đổi nào đã xảy ra trong hình thức cư trú của người Chơro?', 
+          options: ['Nhà sàn đã trở nên phổ biến hơn', 'Nhà sàn đã vắng bóng, thay bằng nhà trệt', 'Nhà trên cây được xây nhiều hơn', 'Nhà rông trở nên phổ biến'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Tập tục nào vẫn được coi trọng trong xã hội Chơro?', 
+          options: ['Cúng thần rừng', 'Lễ hội Halloween', 'Lễ kỷ niệm hôn nhân', 'Cúng thần lúa'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Tàn dư tập tục nào vẫn còn được duy trì trong xã hội Chơro?', 
+          options: ['Phụ hệ', 'Mẫu hệ', 'Đa hệ', 'Mẫu phụ hệ'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Xơđăng', 
+      questionsList: [
+        Question(
+          question: 'Dân tộc Xơ-đăng phân bố chủ yếu ở tỉnh nào?', 
+          options: ['Gia Lai', 'Kon Tum', 'Quảng Ngãi', 'Hà Tĩnh'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Nhóm nào trong dân tộc Xơ-đăng có truyền thống thu nhặt quặng sắt và rèn dao, cuốc?', 
+          options: ['Cadong', 'Mnâm', 'Tơđrá', 'Halăng'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Sản phẩm dệt phổ biến của người Xơ-đăng là gì?', 
+          options: ['Vải lanh', 'Vải tơ tằm', 'Vải len', 'Vải bông'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Công trình kiến trúc hoành tráng của làng Xơ-đăng là gì?', 
+          options: ['Nhà rông', 'Nhà sàn', 'Nhà cửa gỗ', 'Chùa'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Loại cây nào thường được sử dụng trong nghệ thuật trang trí của người Xơ-đăng?', 
+          options: ['Cây dừa', 'Cây nêu', 'Cây đa', 'Cây mía'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Cơho', 
+      questionsList: [
+        Question(
+          question: 'Dân số người Cơho năm 2019?', 
+          options: ['Hơn 100.000 người', 'Hơn 200.000 người', 'Hơn 166.000 người', 'Hơn 266.000 người'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Người Cơho chủ yếu cư trú ở tỉnh nào?', 
+          options: ['Lâm Đồng', 'Kon Tum', 'Gia Lai', 'Đắk Lắk'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Trong nghệ thuật trang sức của người Cơ-ho, loại đồ trang sức nào phổ biến nhất?', 
+          options: ['Mặt dây chuyền', 'Nhẫn', 'Vòng cổ', 'Hoa tai'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Vị thần quan trọng nhất trong tín ngưỡng của người Cơ-ho là ai?', 
+          options: ['Nđu ở trên trời', 'Thần mặt trời', 'Thần sấm sét', 'Thần nước'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Nghi lễ cầu mùa được thực hiện trong mỗi chu kỳ canh tác lúa rẫy và lúa ruộng của người Cơ-ho như thế nào?', 
+          options: ['Mỗi 5 năm một lần', 'Mỗi chu kỳ canh tác', 'Mỗi mùa xuân', 'Mỗi năm một lần'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Hrê', 
+      questionsList: [
+        Question(
+          question: 'Dân tộc Hrê có hơn bao nhiêu người theo thống kê năm 2009?', 
+          options: ['Dưới 100.000 người', 'Hơn 127.000 người', '200.000 người', 'Trên 400.000 người'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Nhà sàn của người Hrê có đặc điểm nào sau đây?', 
+          options: ['Vách dựng thẳng', 'Không có sàn', 'Vách dựng nghiêng ra phía ngoài', 'Sàn đều ở cả hai đầu nhà'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Ở đâu là nơi chủ yếu cư trú của người Hrê?', 
+          options: ['Kon Tum', 'Đắk Lắk', 'Lâm Đồng', 'Quảng Ngãi, Bình Định'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Phụ nữ Hrê thường thành thạo trong nghề làm gì?', 
+          options: ['Rèn sắt', 'Chăn nuôi', 'Dệt vải sợi bông', 'Làm gốm sứ'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Trong lễ cúng của người Hrê, thường sử dụng hiến sinh loài vật nào?', 
+          options: ['Trâu', 'Lợn', 'Gà', 'Vịt'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Mnông', 
+      questionsList: [
+        Question(
+          question: 'Theo thông tin được cung cấp, dân số người Mnông ước tính là bao nhiêu?', 
+          options: ['Khoảng 50.000 người', 'Khoảng 70.000 người', 'Khoảng 90.000 người', 'Khoảng 103.000 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Một số nghề thủ công truyền thống của người Mnông là gì?', 
+          options: ['Làm đồ gốm', 'Rèn đúc kim loại', 'Dệt vải và đan lát', 'Tất cả đáp án trên'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Kiểu kiến trúc nhà ở truyền thống của người Mnông như thế nào?', 
+          options: ['Nhà sàn cao mái lợp tranh', 'Nhà thấp có đầu hồi tròn và cửa ra vào hình vòm', 'Nhà tròn làm bằng bùn và đá', 'Nhà hang'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Ý nghĩa của "đàn đá" trong văn hóa Mnông là gì?', 
+          options: ['Là một nhạc cụ quý hiếm và cổ xưa, bộ đàn đá đầu tiên được phát hiện vào năm 1949', 'Là nhạc cụ phổ biến trong gia đình để giải trí', 'Chỉ được sử dụng trong các nghi lễ tôn giáo', 'Là biểu tượng cho sự kết nối của người Mnông với tổ tiên'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Hệ thống tín ngưỡng của người Mnông là gì?', 
+          options: ['Nhất thần giáo', 'Phật giáo', 'Đa thần giáo', 'Ấn Độ giáo'],
+          answer: 2,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Xtiêng', 
+      questionsList: [
+        Question(
+          question: 'Theo số liệu điều tra năm 2009, dân số người Xtiêng ở Việt Nam là bao nhiêu?', 
+          options: ['Khoảng 50.000 người', 'Khoảng 60.000 người', 'Khoảng 70.000 người', 'Hơn 85.000 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Hoạt động sản xuất chính của người Xtiêng là gì?', 
+          options: ['Nuôi trồng thủy sản', 'Canh tác rẫy', 'Công nghiệp', 'Khai thác khoáng sản'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Nghề nào từng phát triển nhưng hiện nay đã mai một ở người Xtiêng?', 
+          options: ['Làm gốm', 'Canh tác rẫy', 'Rèn', 'Dệt vải'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Đặc điểm nổi bật của nhà người Bù Lơ ở Phước Long (Bình Phước) là gì?', 
+          options: ['Có nhiều gian phòng riêng biệt', 'Mái lợp tranh trùm xuống gấn sát đất và uốn khum ở hai đầu hồi', 'Được làm bằng gỗ quý', 'Nằm trên đồi cao'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Loại nhạc cụ nào chỉ được sử dụng trong lễ hiến sinh trâu của người Xtiêng?', 
+          options: ['Kèn', 'Trống', 'Bộ chiêng 6 chiếc', 'Đàn bầu'],
+          answer: 2,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Chăm', 
+      questionsList: [
+        Question(
+          question: 'Theo số liệu điều tra năm 2019, dân số người Chăm ở Việt Nam là bao nhiêu?', 
+          options: ['Hơn 178.000 người', 'Khoảng 100.000 người', 'Khoảng 150.000 người', 'Khoảng 200.000 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Nhóm Chăm Hroi sinh sống ở đâu?', 
+          options: ['Duyên hải miền Trung', 'Tây Nguyên', 'Đồng bằng sông Hồng', 'Miền tây Bình Định và Phú Yên'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Chăm có truyền thống gì nổi bật trong lĩnh vực nông nghiệp?', 
+          options: ['Canh tác rẫy', 'Nông nghiệp lúa nước với kỹ thuật làm thủy lợi từ rất sớm', 'Nuôi trồng thủy sản', 'Chăn nuôi gia súc'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Kiến trúc tháp Chàm có đặc điểm gì nổi bật?', 
+          options: ['Thấp và nhỏ', 'Cao và lớn', 'Hình chóp, nhiều tầng, được xây dựng bằng gạch nung', 'Được trang trí bằng hoa văn tinh xảo'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Lễ hội Katê của người Chăm diễn ra vào thời điểm nào?', 
+          options: ['Tháng Tám', 'Tháng Giêng', 'Tháng Mười', 'Tháng Năm'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Churu', 
+      questionsList: [
+        Question(
+          question: 'Theo số liệu thống kê năm 2019, dân số người Chu ru là bao nhiêu?', 
+          options: ['23.242 người', 'Khoảng 10.000 người', 'Khoảng 15.000 người', 'Khoảng 30.000 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Nhà ở truyền thống của người Chu ru được làm bằng gì?', 
+          options: ['Gạch nung và xi măng', 'Tre, gỗ, bương, mai', 'Lợp bằng cỏ tranh', 'Đất sét và đá'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Lễ cưới của người Chu ru diễn ra như thế nào?', 
+          options: ['Qua mai mối và tổ chức hôn lễ trang trọng', 'Bắt cóc cô dâu và tổ chức lễ cưới sau đó', 'Trao đổi quà cáp giữa hai bên gia đình và tổ chức tiệc ăn mừng', 'Trao tặng nhẫn và chuỗi hạt cườm, sau lễ cưới cô dâu ở nhà chồng nửa tháng'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Lễ cúng thần Bơnung được tổ chức vào tháng nào âm lịch?', 
+          options: ['Tháng Giêng', 'Tháng Hai', 'Tháng Ba', 'Tháng Tư'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Lễ cúng Yang Wer có ý nghĩa gì đối với người Chu ru?', 
+          options: ['Coi là nơi ngự trị của các thần linh và cầu mong sự may mắn, bình an', 'Cầu mong mưa thuận gió hòa, mùa màng bội thu', 'Tưởng nhớ tổ tiên, tri ân các vị thần linh', 'Giữ gìn bản sắc văn hóa truyền thống'],
+          answer: 0,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Êđê', 
+      questionsList: [
+        Question(
+          question: 'Theo số liệu điều tra năm 2009, dân số người Êđê là bao nhiêu?', 
+          options: ['Khoảng 200.000 người', 'Khoảng 250.000 người', 'Khoảng 300.000 người', 'Hơn 331.000 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Cộng đồng Êđê bao gồm những nhóm địa phương nào?', 
+          options: ['Kpạ, Bih, Mthur, Adham', 'Kinh, Tày, Nùng', 'Mường, Hoa, Khơ Mú', 'Chăm, Raglai, Gia Rai'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Kiểu nhà truyền thống của người Êđê có đặc điểm gì nổi bật?', 
+          options: ['Nhà sàn thấp với mái lợp tranh', 'Tất cả các nhà trong buôn đều quay đầu hồi có cửa chính về phía bắc', 'Nhà sàn cao với nhiều gian phòng riêng biệt', 'Nhà sàn có hình dạng độc đáo với mái cong vút'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Theo tín ngưỡng của người Êđê, ai là vị thần khai sáng ra đất và nước?', 
+          options: ['Yang', 'Pô', 'Aê Điê và Aê Đu', 'Khánh'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Âm nhạc cồng chiêng đóng vai trò gì trong văn hóa Êđê?', 
+          options: ['Chỉ được sử dụng trong các nghi lễ tôn giáo', 'Là biểu tượng văn hóa độc đáo của người Êđê', 'Được sử dụng trong cả đời sống sinh hoạt và nghi lễ', 'Tất cả những điều trên'],
+          answer: 3,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Giarai', 
+      questionsList: [
+        Question(
+          question: 'Theo số liệu điều tra năm 2009, dân số người Giarai là bao nhiêu?', 
+          options: ['Khoảng 300.000 người', 'Khoảng 350.000 người', 'Khoảng 400.000 người', 'Hơn 411.000 người'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Người Giarai có những nhóm địa phương nào?', 
+          options: ['Hdrung, Aráp, Chor, Mthur và Tơbuăn', 'Kpạ, Bih, Mthur, Adham', 'Êđê, Bahnar, Raglai, Chăm', 'Mường, Hoa, Khơ Mú, Thái'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Trong quá khứ, người Giarai có hình thức tổ chức xã hội nào?', 
+          options: ['Cộng hòa', 'Quân chủ', '"Vua Lửa" (pơtao Pui, Hoả xá) và "vua Nước" (pơtao Ia, Thuỷ xá)', 'Phong kiến'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Lễ nào được coi là lễ hội lớn nhất, tốn kém nhất và đông người tham dự nhất trong đời sống người Giarai?', 
+          options: ['Lễ cúng thần lúa', 'Lễ bỏ mả (lễ đoạn tang)', 'Lễ hội đâm trâu', 'Lễ mừng nhà mới'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Người Giarai có những sử thi nổi tiếng nào?', 
+          options: ['Đam San, Đam Kteh Mlan, Khing Juh', 'Êđê Ni, Xing Nhã, Đam Di', 'Khơ Mú, Thái, Mường', 'Raglai, Chăm, Bahnar'],
+          answer: 1,
+        ),
+      ]
+    ),
+    Quiz(
+      lessonTitle: 'Người Raglai', 
+      questionsList: [
+        Question(
+          question: 'Theo số liệu thống kê năm 2019, dân số người Raglai là bao nhiêu?', 
+          options: ['146.613 người', 'Khoảng 140.000 người', 'Khoảng 120.000 người', 'Khoảng 100.000 người'],
+          answer: 0,
+        ),
+        Question(
+          question: 'Trong tín ngưỡng của người Raglai, lực lượng siêu nhiên nào gây cho họ nhiều sợ hãi nhất?', 
+          options: ['Thần linh', 'Vong linh người chết', 'Thiên nhiên', 'Thú vật'],
+          answer: 1,
+        ),
+        Question(
+          question: 'Việc cưới xin của người Raglai diễn ra như thế nào?', 
+          options: ['Qua mai mối và tổ chức hôn lễ trang trọng', 'Bắt cóc cô dâu và tổ chức lễ cưới sau đó', 'Trải qua nhiều bước, nhiều thủ tục phức tạp, bao gồm lễ cưới ở nhà gái và nhà trai', 'Trao tặng nhẫn và chuỗi hạt cườm, sau lễ cưới cô dâu ở nhà chồng nửa tháng'],
+          answer: 2,
+        ),
+        Question(
+          question: 'Trên đỉnh nhà mồ của người Raglai thường có hình gì?', 
+          options: ['Con trâu', 'Con bò', 'Con mèo', 'Chiếc thuyền và những chú chim bông lau'],
+          answer: 3,
+        ),
+        Question(
+          question: 'Lớp thầy cúng trong cộng đồng Raglai có vai trò gì?', 
+          options: ['Tham gia lao động chính', 'Cúng bái như một nghề nghiệp chính thức', 'Thể hiện uy quyền trong cộng đồng', 'Giữ gìn truyền thống văn hóa'],
+          answer: 1,
         ),
       ]
     ),
