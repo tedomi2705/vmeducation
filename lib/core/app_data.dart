@@ -59,7 +59,6 @@ class AppData {
   static const String model = 'Cổ vật';
   static const String backToHome = 'Trở về học tập';
 
-
   //List of information section
   static List<InfoSection> infoList = [
     InfoSection(
